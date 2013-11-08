@@ -3,13 +3,15 @@ project(compton-conf)
 cmake_minimum_required(VERSION 2.8.6)
 
 # Qt
-find_package(Qt4 REQUIRED QtCore QtGui)
+find_package(Qt4 REQUIRED QtCore QtGui QtDbus)
 
 # libconfig using pkg-config
-find_package(PkgConfig)
+find_package(PkgConfig REQUIRED)
 pkg_check_modules(LIBCONFIG REQUIRED
   libconfig
 )
+
+include(GNUInstallDirs REQUIRED)
 
 set(CMAKE_CXX_FLAGS "-DQT_NO_KEYWORDS -fno-exceptions")
 
@@ -34,6 +36,10 @@ qt4_wrap_ui(compton-conf_UI_H
   ${compton-conf_UIS}
 )
 
+add_definitions(
+  -DCOMPTON_CONF_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/compton-conf"
+)
+
 add_executable(compton-conf
   ${compton-conf_SRCS}
   ${compton-conf_UI_H}
@@ -42,10 +48,12 @@ add_executable(compton-conf
 target_link_libraries(compton-conf
   ${QT_QTCORE_LIBRARY}
   ${QT_QTGUI_LIBRARY}
+  ${QT_QTDBUS_LIBRARY}
   ${LIBCONFIG_LIBRARIES}
 )
 
 install(TARGETS compton-conf RUNTIME DESTINATION bin)
+install(FILES compton.conf.example DESTINATION ${CMAKE_INSTALL_DATADIR}/compton-conf)
 
 # building tarball with CPack -------------------------------------------------
 # To create a source distribution, type:

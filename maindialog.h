@@ -33,8 +33,13 @@ class MainDialog : public QDialog
 {
   Q_OBJECT
 public:
-  MainDialog(config_t* cfg);
+  MainDialog(QString userConfigFile = QString());
   ~MainDialog();
+
+  virtual void done(int res);
+
+private:
+  void saveConfig();
 
 private Q_SLOTS:
   void onButtonToggled(bool checked);
@@ -42,8 +47,9 @@ private Q_SLOTS:
   void onSpinValueChanged(int i);
 
 private:
-    Ui::MainDialog* ui;
-    config_t* config_;
+  Ui::MainDialog* ui;
+  config_t config_;
+  QString userConfigFile_;
 };
 
 #endif // MAINDIALOG_H
