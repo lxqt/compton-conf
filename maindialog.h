@@ -54,6 +54,7 @@ private Q_SLOTS:
   void onSpinValueChanged(int i);
   void onDialogButtonClicked(QAbstractButton* button);
   void onColorButtonClicked();
+  void onAboutButtonClicked();
 
 private:
   Ui::MainDialog* ui;

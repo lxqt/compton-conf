@@ -28,7 +28,7 @@
 #include <QDBusConnection>
 #include <QDialogButtonBox>
 #include <QColorDialog>
-#include <QTimer>
+#include <QMessageBox>
 
 // dbus interface of compton
 #define COMPTON_SERVICE_PREFIX    "com.github.chjj.compton."
@@ -63,7 +63,7 @@ MainDialog::MainDialog(QString userConfigFile) {
 
   // set up signal handlers and initial values of the controls
   connect(ui->buttonBox, SIGNAL(clicked(QAbstractButton*)), SLOT(onDialogButtonClicked(QAbstractButton*)));
-  
+  connect(ui->aboutButton, SIGNAL(clicked(bool)), SLOT(onAboutButtonClicked()));
   connect(ui->shadow_color, SIGNAL(clicked(bool)), SLOT(onColorButtonClicked()));
   double color;
   shadowColor_.setRedF(config_lookup_float(&config_, "shadow-red", &color) == CONFIG_TRUE ?  color : 0.0);
@@ -173,6 +173,11 @@ void MainDialog::onColorButtonClicked() {
     configSetFloat("shadow-green", shadowColor_.greenF());
     configSetFloat("shadow-blue", shadowColor_.blueF());
   }
+}
+
+void MainDialog::onAboutButtonClicked() {
+  QMessageBox::about(this, tr("About ComptonConf"),
+                     tr("ComptonConf - configuration tool for compton\n\nCopyright (C) 2013\nAuthor: Hong Jen Yee (PCMan) <pcman.tw@gmail.com>"));
 }
 
 void MainDialog::updateShadowColorButton() {
