@@ -145,8 +145,8 @@ void MainDialog::saveConfig() {
   QDBusInterface iface(comptonServiceName, COMPTON_PATH, COMPTON_INTERFACE);
   if(iface.isValid()) {
     iface.call("reset");
-    // raise ourself to the top again
-    QTimer::singleShot(1000, this, SLOT(raise()));
+    // raise ourself to the top again (we'll loosing focus after reloading compton)
+    activateWindow();
   }
   // FIXME: dbus interface of compton is not always available and reset() creates
   // much flickers. Maybe we should use internal dbus method set_opts().
