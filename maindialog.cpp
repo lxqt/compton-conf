@@ -26,9 +26,12 @@
 #include <QFileInfo>
 #include <QDBusInterface>
 #include <QDBusConnection>
+#include <QDialogButtonBox>
+#include <QColorDialog>
+#include <QTimer>
 
 // dbus interface of compton
-#define COMPTON_SERVICE    "com.github.chjj.compton._0"
+#define COMPTON_SERVICE_PREFIX    "com.github.chjj.compton."
 #define COMPTON_PATH       "/"
 #define COMPTON_INTERFACE  "com.github.chjj.compton"
 
@@ -59,6 +62,15 @@ MainDialog::MainDialog(QString userConfigFile) {
   }
 
   // set up signal handlers and initial values of the controls
+  connect(ui->buttonBox, SIGNAL(clicked(QAbstractButton*)), SLOT(onDialogButtonClicked(QAbstractButton*)));
+  
+  connect(ui->shadow_color, SIGNAL(clicked(bool)), SLOT(onColorButtonClicked()));
+  double color;
+  shadowColor_.setRedF(config_lookup_float(&config_, "shadow-red", &color) == CONFIG_TRUE ?  color : 0.0);
+  shadowColor_.setGreenF(config_lookup_float(&config_, "shadow-green", &color) == CONFIG_TRUE ? color : 0.0);
+  shadowColor_.setBlueF(config_lookup_float(&config_, "shadow-blue", &color) == CONFIG_TRUE ? color : 0.0);
+  updateShadowColorButton();
+
   // objectNames are kept the same as config file key names.
   Q_FOREACH(QWidget* child, findChildren<QWidget*>()) {
     if(!child->isWidgetType() || child->objectName().isEmpty())
@@ -95,45 +107,24 @@ void MainDialog::onButtonToggled(bool checked) {
   qDebug() << "toggled: " << sender()->objectName();
   // generate config key from objectName.
   QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
-  config_setting_t* setting = config_lookup(&config_, keyName.constData());
-  if(!setting) { // setting not found
-    // add a new setting for it
-    config_setting_t* root = config_root_setting(&config_);
-    setting = config_setting_add(root, keyName.constData(), CONFIG_TYPE_BOOL);
-  }
-  // set the value
-  config_setting_set_bool(setting, checked);
-  saveConfig();
+  configSetBool(keyName.constData(), checked);
+  // saveConfig();
 }
 
 void MainDialog::onSpinValueChanged(double d) {
   qDebug() << "changed: " << sender()->objectName() << ": " << d;
   // generate config key from objectName.
   QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
-  config_setting_t* setting = config_lookup(&config_, keyName.constData());
-  if(!setting) { // setting not found
-    // add a new setting for it
-    config_setting_t* root = config_root_setting(&config_);
-    setting = config_setting_add(root, keyName.constData(), CONFIG_TYPE_FLOAT);
-  }
-  // set the value
-  config_setting_set_float(setting, d);
-  saveConfig();
+  configSetFloat(keyName.constData(), d);
+  // saveConfig();
 }
 
 void MainDialog::onSpinValueChanged(int i) {
   qDebug() << "changed: " << sender()->objectName() << ": " << i;
   // generate config key from objectName.
   QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
-  config_setting_t* setting = config_lookup(&config_, keyName.constData());
-  if(!setting) { // setting not found
-    // add a new setting for it
-    config_setting_t* root = config_root_setting(&config_);
-    setting = config_setting_add(root, keyName.constData(), CONFIG_TYPE_INT);
-  }
-  // set the value
-  config_setting_set_int(setting, i);
-  saveConfig();
+  configSetInt(keyName.constData(), i);
+  // saveConfig();
 }
 
 void MainDialog::saveConfig() {
@@ -145,9 +136,18 @@ void MainDialog::saveConfig() {
   config_write_file(&config_, userConfigFile_.toLocal8Bit().constData());
   
   // ask compton to reload the config
-  QDBusInterface iface(COMPTON_SERVICE, COMPTON_PATH, COMPTON_INTERFACE);
-  if(iface.isValid())
+  QString displayName = qgetenv("DISPLAY");
+  for(int i = 0; i < displayName.length(); ++i) {
+    if(!displayName[i].isNumber()) // replace non-numeric chars with _
+      displayName[i] = '_';
+  }
+  QString comptonServiceName = COMPTON_SERVICE_PREFIX + displayName;
+  QDBusInterface iface(comptonServiceName, COMPTON_PATH, COMPTON_INTERFACE);
+  if(iface.isValid()) {
     iface.call("reset");
+    // raise ourself to the top again
+    QTimer::singleShot(1000, this, SLOT(raise()));
+  }
   // FIXME: dbus interface of compton is not always available and reset() creates
   // much flickers. Maybe we should use internal dbus method set_opts().
   // Or, we can patch compton to do what we want.
@@ -155,4 +155,59 @@ void MainDialog::saveConfig() {
 
 void MainDialog::done(int res) {
   QDialog::done(res);
+}
+
+void MainDialog::onDialogButtonClicked(QAbstractButton* button) {
+  if(ui->buttonBox->buttonRole(button) == QDialogButtonBox::ApplyRole) {
+    saveConfig();
+  }
+}
+
+void MainDialog::onColorButtonClicked() {
+  QColorDialog dlg(shadowColor_);
+  dlg.setOption(QColorDialog::ShowAlphaChannel, false);
+  if(dlg.exec() == QDialog::Accepted) {
+    shadowColor_ = dlg.selectedColor();
+    updateShadowColorButton();
+    configSetFloat("shadow-red", shadowColor_.redF());
+    configSetFloat("shadow-green", shadowColor_.greenF());
+    configSetFloat("shadow-blue", shadowColor_.blueF());
+  }
+}
+
+void MainDialog::updateShadowColorButton() {
+  QString qss = QString("QPushButton {"
+  "background-color:%1;"
+  "}").arg(shadowColor_.name());
+  ui->shadow_color->setStyleSheet(qss);
+}
+
+void MainDialog::configSetInt(const char* key, int val) {
+  config_setting_t* setting = config_lookup(&config_, key);
+  if(!setting) { // setting not found
+    // add a new setting for it
+    config_setting_t* root = config_root_setting(&config_);
+    setting = config_setting_add(root, key, CONFIG_TYPE_INT);
+  }
+  config_setting_set_int(setting, val);
+}
+
+void MainDialog::configSetFloat(const char* key, double val) {
+  config_setting_t* setting = config_lookup(&config_, key);
+  if(!setting) { // setting not found
+    // add a new setting for it
+    config_setting_t* root = config_root_setting(&config_);
+    setting = config_setting_add(root, key, CONFIG_TYPE_FLOAT);
+  }
+  config_setting_set_float(setting, val);
+}
+
+void MainDialog::configSetBool(const char* key, bool val) {
+  config_setting_t* setting = config_lookup(&config_, key);
+  if(!setting) { // setting not found
+    // add a new setting for it
+    config_setting_t* root = config_root_setting(&config_);
+    setting = config_setting_add(root, key, CONFIG_TYPE_BOOL);
+  }
+  config_setting_set_bool(setting, val);
 }

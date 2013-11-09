@@ -29,6 +29,8 @@ namespace Ui
   class MainDialog;
 }
 
+class QAbstractButton;
+
 class MainDialog : public QDialog
 {
   Q_OBJECT
@@ -40,16 +42,24 @@ public:
 
 private:
   void saveConfig();
+  void updateShadowColorButton();
 
+  void configSetInt(const char* key, int val);
+  void configSetFloat(const char* key, double val);
+  void configSetBool(const char* key, bool val);
+  
 private Q_SLOTS:
   void onButtonToggled(bool checked);
   void onSpinValueChanged(double d);
   void onSpinValueChanged(int i);
+  void onDialogButtonClicked(QAbstractButton* button);
+  void onColorButtonClicked();
 
 private:
   Ui::MainDialog* ui;
   config_t config_;
   QString userConfigFile_;
+  QColor shadowColor_;
 };
 
 #endif // MAINDIALOG_H

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>423</width>
+    <width>493</width>
     <height>397</height>
    </rect>
   </property>
@@ -42,7 +42,11 @@
         </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QSpinBox" name="shadow_offset_x"/>
+        <widget class="QSpinBox" name="shadow_offset_x">
+         <property name="minimum">
+          <number>-99</number>
+         </property>
+        </widget>
        </item>
        <item row="6" column="0">
         <widget class="QLabel" name="shadow_offset_y_label">
@@ -52,7 +56,11 @@
         </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QSpinBox" name="shadow_offset_y"/>
+        <widget class="QSpinBox" name="shadow_offset_y">
+         <property name="minimum">
+          <number>-99</number>
+         </property>
+        </widget>
        </item>
        <item row="7" column="0">
         <widget class="QLabel" name="shadow_opacity_label">
@@ -114,7 +122,14 @@
         </widget>
        </item>
        <item row="7" column="1">
-        <widget class="QDoubleSpinBox" name="shadow_opacity"/>
+        <widget class="QDoubleSpinBox" name="shadow_opacity">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -198,22 +213,64 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QDoubleSpinBox" name="active_opacity"/>
+        <widget class="QDoubleSpinBox" name="active_opacity">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QDoubleSpinBox" name="inactive_opacity"/>
+        <widget class="QDoubleSpinBox" name="inactive_opacity">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QDoubleSpinBox" name="menu_opacity"/>
+        <widget class="QDoubleSpinBox" name="menu_opacity">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QDoubleSpinBox" name="frame_opacity"/>
+        <widget class="QDoubleSpinBox" name="frame_opacity">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QDoubleSpinBox" name="alpha_step"/>
+        <widget class="QDoubleSpinBox" name="alpha_step">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.010000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QDoubleSpinBox" name="inactive_dim"/>
+        <widget class="QDoubleSpinBox" name="inactive_dim">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -257,14 +314,40 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QSpinBox" name="fade_delta"/>
-       </item>
        <item row="2" column="1">
-        <widget class="QDoubleSpinBox" name="fade_in_step"/>
+        <widget class="QDoubleSpinBox" name="fade_in_step">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="value">
+          <double>0.028000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QDoubleSpinBox" name="fade_out_step"/>
+        <widget class="QDoubleSpinBox" name="fade_out_step">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="value">
+          <double>0.030000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="fade_delta"/>
        </item>
       </layout>
      </widget>
@@ -290,7 +373,7 @@
       <enum>Qt::Horizontal</enum>
      </property>
      <property name="standardButtons">
-      <set>QDialogButtonBox::Close</set>
+      <set>QDialogButtonBox::Apply|QDialogButtonBox::Cancel</set>
      </property>
     </widget>
    </item>
