@@ -1,0 +1,13 @@
+[Desktop Entry]
+#OnlyShowIn=LxQt;
+Type=Application
+Exec=compton-conf
+TryExec=compton-conf
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;LxQt;
+Icon=preferences-desktop-display
+Name=Compton Configuration
+Comment=Configure Compton compositor for X
+GenericName=Compton Configuration
+
+#TRANSLATIONS_DIR=translations

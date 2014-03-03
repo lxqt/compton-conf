@@ -54,6 +54,7 @@ target_link_libraries(compton-conf
 
 install(TARGETS compton-conf RUNTIME DESTINATION bin)
 install(FILES compton.conf.example DESTINATION ${CMAKE_INSTALL_DATADIR}/compton-conf)
+install(FILES compton-conf.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
 
 # building tarball with CPack -------------------------------------------------
 # To create a source distribution, type:
