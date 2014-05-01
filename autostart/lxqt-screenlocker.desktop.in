@@ -3,7 +3,7 @@ Type=Application
 Name=Screen Locker
 TryExec=lxqt-screenlocker
 Exec=lxqt-screenlocker
-OnlyShowIn=Razor;
-X-LxQt-Module=true
+OnlyShowIn=LXQt;
+X-LXQt-Module=true
 
 #TRANSLATIONS_DIR=translations
