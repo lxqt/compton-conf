@@ -1,1 +1,3 @@
-GUI configuration tool for compton X composite manager.
+# compton-conf
+
+Qt configuration tool for X composite manager [Compton](https://github.com/chjj/compton).
