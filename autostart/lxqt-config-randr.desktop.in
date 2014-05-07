@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Monitor configuration
+Exec=lxqt-config-randr --startup
+TryExec=lxqt-config-randr
+OnlyShowIn=LXQt;
+X-LXQt-Module=true
+
+#TRANSLATIONS_DIR=translations
