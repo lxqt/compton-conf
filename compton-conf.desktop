@@ -1,13 +1,9 @@
 [Desktop Entry]
-#OnlyShowIn=LxQt;
 Type=Application
-Exec=compton-conf
-TryExec=compton-conf
-Terminal=false
-Categories=Settings;DesktopSettings;Qt;LxQt;
-Icon=preferences-desktop-display
-Name=Compton Configuration
-Comment=Configure Compton compositor for X
+Name=Window Effects
 GenericName=Compton Configuration
-
-#TRANSLATIONS_DIR=translations
+Comment=Configure Compton window effects
+TryExec=compton-conf
+Exec=compton-conf
+Icon=preferences-desktop-display
+Categories=Settings;DesktopSettings;Qt;LXQt;
