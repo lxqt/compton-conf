@@ -2,6 +2,13 @@ project(compton-conf)
 
 cmake_minimum_required(VERSION 2.8.6)
 
+option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+
+# Although the name, LXQtTranslateTs does not bring any dependency on liblxqt
+include(LXQtTranslateTs)
+
 # Support Qt5
 option(USE_QT5 "Build with Qt5." $ENV{USE_QT5})
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -43,6 +50,12 @@ include_directories(
   ${CMAKE_CURRENT_BINARY_DIR}
 )
 
+
+set(compton-conf_HS
+    compton-conf.h
+    maindialog.h
+)
+
 set(compton-conf_SRCS
   maindialog.cpp
   compton-conf.cpp
@@ -50,6 +63,17 @@ set(compton-conf_SRCS
 
 set(compton-conf_UIS
   maindialog.ui
+)
+
+lxqt_translate_ts(compton-conf_QM_FILES
+    USE_QT5 ${USE_QT5}
+    UPDATE_TRANSLATIONS ${UPDATE_TRANSLATIONS}
+    SOURCES
+        ${compton-conf_HS}
+        ${compton-conf_SRCS}
+        ${compton-conf_UIS}
+    INSTALL_DIR
+        ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/translations
 )
 
 if(USE_QT5)
@@ -65,6 +89,8 @@ add_definitions(
 add_executable(compton-conf
   ${compton-conf_SRCS}
   ${compton-conf_UI_H}
+  ${compton-conf_QM_FILES}
+  ${compton-conf_QM_LOADER}
 )
 
 target_link_libraries(compton-conf
