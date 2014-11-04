@@ -6,8 +6,10 @@ option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" O
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
-# Although the name, LXQtTranslateTs does not bring any dependency on liblxqt
+# Although the names, LXQtTranslateTsa and LXQtTranslateDesktop, they don't
+#   bring any dependency on liblxqt.
 include(LXQtTranslateTs)
+include(LXQtTranslateDesktop)
 
 # Support Qt5
 option(USE_QT5 "Build with Qt5." $ENV{USE_QT5})
@@ -65,6 +67,10 @@ set(compton-conf_UIS
   maindialog.ui
 )
 
+set(compton-conf_DESKTOP_FILES_IN
+    compton-conf.desktop.in
+)
+
 lxqt_translate_ts(compton-conf_QM_FILES
     USE_QT5 ${USE_QT5}
     UPDATE_TRANSLATIONS ${UPDATE_TRANSLATIONS}
@@ -75,6 +81,8 @@ lxqt_translate_ts(compton-conf_QM_FILES
     INSTALL_DIR
         ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/translations
 )
+
+lxqt_translate_desktop(compton-conf_DESKTOP_FILES SOURCES ${compton-conf_DESKTOP_FILES_IN})
 
 if(USE_QT5)
   qt5_wrap_ui(compton-conf_UI_H ${compton-conf_UIS})
@@ -91,6 +99,7 @@ add_executable(compton-conf
   ${compton-conf_UI_H}
   ${compton-conf_QM_FILES}
   ${compton-conf_QM_LOADER}
+  ${compton-conf_DESKTOP_FILES}
 )
 
 target_link_libraries(compton-conf
@@ -100,7 +109,7 @@ target_link_libraries(compton-conf
 
 install(TARGETS compton-conf RUNTIME DESTINATION bin)
 install(FILES compton.conf.example DESTINATION ${CMAKE_INSTALL_DATADIR}/compton-conf)
-install(FILES compton-conf.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
+install(FILES ${compton-conf_DESKTOP_FILES} DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/)
 
 # building tarball with CPack -------------------------------------------------
 # To create a source distribution, type:

@@ -7,3 +7,5 @@ TryExec=compton-conf
 Exec=compton-conf
 Icon=preferences-desktop-display
 Categories=Settings;DesktopSettings;Qt;LXQt;
+
+#TRANSLATIONS_DIR=translations
