@@ -9,5 +9,5 @@ Qt configuration tool for X composite manager [Compton](https://github.com/chjj/
 git clone https://github.com/debian-lxqt/compton-conf;
 cd compton-conf;
 cmake CMakeLists.txt;
-make -j2:
+make -j2;
 ```
