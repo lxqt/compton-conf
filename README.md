@@ -6,7 +6,7 @@ Qt configuration tool for X composite manager [Compton](https://github.com/chjj/
 
 ##Build instructions
 ```
-git clone https://github.com/debian-lxqt/compton-conf;
+git clone https://github.com/lxde/compton-conf;
 cd compton-conf;
 cmake CMakeLists.txt;
 make -j2;
