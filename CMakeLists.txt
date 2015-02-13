@@ -36,7 +36,7 @@ pkg_check_modules(LIBCONFIG REQUIRED
 
 include(GNUInstallDirs REQUIRED)
 
-set(CMAKE_CXX_FLAGS "-DQT_NO_KEYWORDS -fno-exceptions")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS -fno-exceptions")
 
 if(USE_QT5)
   set(QTX_INCLUDE_DIRS "")
