@@ -11,21 +11,22 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 
-# Support Qt5
-option(USE_QT5 "Build with Qt5." $ENV{USE_QT5})
+# Support Qt4
+option(USE_QT4 "Build with Qt4." $ENV{USE_QT4})
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_AUTOMOC ON)
-if(USE_QT5)
+
+if(USE_QT4)
+  find_package(Qt4 REQUIRED QtCore QtGui QtDbus)
+  include(${QT_USE_FILE})
+  message(STATUS "Building with Qt${QTVERSION}")
+else()
   cmake_minimum_required(VERSION 2.8.11)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5DBus REQUIRED)
   find_package(Qt5LinguistTools REQUIRED QUIET)
   message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
-else()
-  find_package(Qt4 REQUIRED QtCore QtGui QtDbus)
-  include(${QT_USE_FILE})
-  message(STATUS "Building with Qt${QTVERSION}")
 endif()
 
 # libconfig using pkg-config
@@ -38,12 +39,12 @@ include(GNUInstallDirs REQUIRED)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS -fno-exceptions")
 
-if(USE_QT5)
-  set(QTX_INCLUDE_DIRS "")
-  set(QTX_LIBRARIES Qt5::Widgets Qt5::DBus)
-else()
+if(USE_QT4)
   set(QTX_INCLUDE_DIRS ${QT_QTCORE_INCLUDE_DIR} ${QT_QTGUI_INCLUDE_DIR} ${QT_QTDBUS_DIR})
   set(QTX_LIBRARIES ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTDBUS_LIBRARY})
+else()
+  set(QTX_INCLUDE_DIRS "")
+  set(QTX_LIBRARIES Qt5::Widgets Qt5::DBus)
 endif()
 
 include_directories(
@@ -72,7 +73,7 @@ set(compton-conf_DESKTOP_FILES_IN
 )
 
 lxqt_translate_ts(compton-conf_QM_FILES
-    USE_QT5 ${USE_QT5}
+    USE_QT4 ${USE_QT4}
     UPDATE_TRANSLATIONS ${UPDATE_TRANSLATIONS}
     SOURCES
         ${compton-conf_HS}
@@ -84,10 +85,10 @@ lxqt_translate_ts(compton-conf_QM_FILES
 
 lxqt_translate_desktop(compton-conf_DESKTOP_FILES SOURCES ${compton-conf_DESKTOP_FILES_IN})
 
-if(USE_QT5)
-  qt5_wrap_ui(compton-conf_UI_H ${compton-conf_UIS})
-else()
+if(USE_QT4)
   qt4_wrap_ui(compton-conf_UI_H ${compton-conf_UIS})
+else()
+  qt5_wrap_ui(compton-conf_UI_H ${compton-conf_UIS})
 endif()
 
 add_definitions(
