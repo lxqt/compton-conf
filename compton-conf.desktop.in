@@ -5,7 +5,7 @@ GenericName=Compton Configuration
 Comment=Configure Compton window effects
 TryExec=compton-conf
 Exec=compton-conf
-Icon=preferences-desktop-display
+Icon=preferences-system-windows
 Categories=Settings;DesktopSettings;Qt;LXQt;
 
 #TRANSLATIONS_DIR=translations
