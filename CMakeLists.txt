@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 2.8.6)
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 
 # Although the names, LXQtTranslateTsa and LXQtTranslateDesktop, they don't
 #   bring any dependency on liblxqt.
