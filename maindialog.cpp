@@ -60,6 +60,12 @@ MainDialog::MainDialog(QString userConfigFile) {
     qDebug() << "load fail, try " << COMPTON_CONF_DATA_DIR << "/compton.conf.example";
     config_read_file(&config_, COMPTON_CONF_DATA_DIR "/compton.conf.example");
   }
+  //Populate vsync types
+  ui->vsync_type->addItem("drm");
+  ui->vsync_type->addItem("opengl");
+  ui->vsync_type->addItem("opengl-oml");
+  ui->vsync_type->addItem("opengl-swc");
+  ui->vsync_type->addItem("opengl-mswc");
 
   // set up signal handlers and initial values of the controls
   connect(ui->buttonBox, SIGNAL(clicked(QAbstractButton*)), SLOT(onDialogButtonClicked(QAbstractButton*)));
