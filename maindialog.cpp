@@ -103,6 +103,9 @@ MainDialog::MainDialog(QString userConfigFile) {
       connect(child, SIGNAL(valueChanged(int)), SLOT(onSpinValueChanged(int)));
     }
     else if(child->inherits("QComboBox")) {
+        const char* val;
+        if(config_lookup_string(&config_, keyName.constData(), &val) == CONFIG_TRUE)
+      static_cast<QComboBox*>(child)->setCurrentIndex(static_cast<QComboBox*>(child)->findData(val));
       connect(child, SIGNAL(currentIndexChanged(QString)), SLOT(onComboValueChanged(QString)));
     }
   }
