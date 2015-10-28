@@ -279,22 +279,85 @@
        <string>VSync</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_enable">
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="vsync_aggressive">
+         <property name="toolTip">
+          <string>Attempt to send painting request before VBlank and do XFlush()
+  during VBlank. This switch may be lifted out at any moment.
+</string>
+         </property>
          <property name="text">
-          <string>Enable VSync</string>
+          <string>Aggressive</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
+       <item row="4" column="0" colspan="2">
+        <widget class="QCheckBox" name="sw_opti">
+         <property name="toolTip">
+          <string>  Limit compton to repaint at most once every 1 / refresh_rate
+  second to boost performance.
+</string>
+         </property>
+         <property name="text">
+          <string>Limit repainting</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QCheckBox" name="dbe">
+         <property name="toolTip">
+          <string>Enable DBE painting mode, intended to use with VSync to
+  (hopefully) eliminate tearing.
+</string>
+         </property>
+         <property name="text">
+          <string>DBE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
         <widget class="QLabel" name="label">
          <property name="text">
           <string>Type</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="vsync_type">
+       <item row="6" column="0" colspan="2">
+        <widget class="QCheckBox" name="glx_no_stencil">
+         <property name="toolTip">
+          <string>GLX backend: Avoid using stencil buffer. Might cause issues
+  when rendering transparent content. My tests show a 15% performance
+  boost.</string>
+         </property>
+         <property name="text">
+          <string>No GLX stencil</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QCheckBox" name="unredir_if_possible">
+         <property name="toolTip">
+          <string>  Unredirect all windows if a full-screen opaque window is
+  detected, to maximize performance for full-screen windows.</string>
+         </property>
+         <property name="text">
+          <string>Unredirect if possible</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="paint_on_overlay">
+         <property name="toolTip">
+          <string>  Painting on X Composite overlay window.
+</string>
+         </property>
+         <property name="text">
+          <string>Paint on overlay</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="vsync">
          <property name="toolTip">
           <string>  Set VSync method. There are (up to) 5 VSync methods currently
   available:
@@ -311,76 +374,6 @@
       extension. Basically the same as opengl-swc above, except the
       extension we use.
 </string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_aggressive">
-         <property name="toolTip">
-          <string>Attempt to send painting request before VBlank and do XFlush()
-  during VBlank. This switch may be lifted out at any moment.
-</string>
-         </property>
-         <property name="text">
-          <string>Aggressive</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_dbe">
-         <property name="toolTip">
-          <string>Enable DBE painting mode, intended to use with VSync to
-  (hopefully) eliminate tearing.
-</string>
-         </property>
-         <property name="text">
-          <string>DBE</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_overlay">
-         <property name="toolTip">
-          <string>  Painting on X Composite overlay window.
-</string>
-         </property>
-         <property name="text">
-          <string>Paint on overlay</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_limit">
-         <property name="toolTip">
-          <string>  Limit compton to repaint at most once every 1 / refresh_rate
-  second to boost performance.
-</string>
-         </property>
-         <property name="text">
-          <string>Limit repainting</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_unredir">
-         <property name="toolTip">
-          <string>  Unredirect all windows if a full-screen opaque window is
-  detected, to maximize performance for full-screen windows.</string>
-         </property>
-         <property name="text">
-          <string>Unredirect if possible</string>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0" colspan="2">
-        <widget class="QCheckBox" name="vsync_stencil">
-         <property name="toolTip">
-          <string>GLX backend: Avoid using stencil buffer. Might cause issues
-  when rendering transparent content. My tests show a 15% performance
-  boost.</string>
-         </property>
-         <property name="text">
-          <string>No GLX stencil</string>
          </property>
         </widget>
        </item>
