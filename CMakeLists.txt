@@ -4,10 +4,8 @@ cmake_minimum_required(VERSION 2.8.6)
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
-list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
-
-# Although the names, LXQtTranslateTsa and LXQtTranslateDesktop, they don't
-#   bring any dependency on liblxqt.
+#Note: no run-time dependency on liblxqt, just a build dependency for lxqt_translate_ts/desktop
+find_package(lxqt REQUIRED)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 
@@ -81,6 +79,14 @@ lxqt_translate_ts(compton-conf_QM_FILES
         ${compton-conf_UIS}
     INSTALL_DIR
         ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/translations
+    PULL_TRANSLATIONS
+        ${PULL_TRANSLATIONS}
+    CLEAN_TRANSLATIONS
+        ${CLEAN_TRANSLATIONS}
+    TRANSLATIONS_REPO
+        ${TRANSLATIONS_REPO}
+    TRANSLATIONS_REFSPEC
+        ${TRANSLATIONS_REFSPEC}
 )
 
 lxqt_translate_desktop(compton-conf_DESKTOP_FILES SOURCES ${compton-conf_DESKTOP_FILES_IN})
