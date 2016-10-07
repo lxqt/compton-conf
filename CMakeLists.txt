@@ -1,11 +1,11 @@
 project(compton-conf)
 
-cmake_minimum_required(VERSION 2.8.6)
+cmake_minimum_required(VERSION 2.8.12)
+set(LXQTBT_MINIMUM_VERSION "0.1.0")
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
-#Note: no run-time dependency on liblxqt, just a build dependency for lxqt_translate_ts/desktop
-find_package(lxqt REQUIRED)
+find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 
