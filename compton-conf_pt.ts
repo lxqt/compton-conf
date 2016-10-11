@@ -66,7 +66,7 @@
     <message>
         <location filename="../../maindialog.ui" line="120"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Não criar sombras nas janelas modeladas</translation>
+        <translation>Não criar sombras nas janelas enroladas</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="138"/>
@@ -81,12 +81,12 @@
     <message>
         <location filename="../../maindialog.ui" line="154"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Opacidade pré-definida das janelas inativas</translation>
+        <translation>Opacidade padrão das janelas inativas</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="161"/>
         <source>Default opacity for active windows</source>
-        <translation>Opacidade pré-definida das janelas ativas</translation>
+        <translation>Opacidade padrão das janelas ativas</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="168"/>
@@ -97,7 +97,7 @@
         <location filename="../../maindialog.ui" line="175"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>InfraestruturaXRender: tamanho da etapa para imagens alfa
+        <translation>Infraestrutura XRender: etapa para imagens alfa
 (Valores mais altos podem reduzir a utilização do X)</translation>
     </message>
     <message>
@@ -183,7 +183,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf - ferramenta de configuração para o compton
 
-Copyright (C) 2013-2015
+Copyright (C) 2013-2016
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
