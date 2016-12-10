@@ -1,7 +1,16 @@
 
-compton-conf-0.2.0 / 2016-09-24
+compton-conf-0.2.1 / 2016-12-11
 ===============================
 
+  * Created compton-conf_it.desktop, removed unused lines (#36)
+  * Create compton-conf_fr.desktop
+  * Use the new lxqt-build-tools package
+  * Remove cpack (#34)
+
+0.2.0 / 2016-09-24
+==================
+
+  * Release 0.2.0: Add changelog
   * Bump release to 0.2.0 (#33)
   * Set default opacity for active windows to 1
   * Extend README.md
