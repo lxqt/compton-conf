@@ -6,6 +6,7 @@ set(LXQTBT_MINIMUM_VERSION "0.1.0")
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
+include(LXQtConfigVars)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 
