@@ -60,6 +60,13 @@ MainDialog::MainDialog(QString userConfigFile) {
     qDebug() << "load fail, try " << COMPTON_CONF_DATA_DIR << "/compton.conf.example";
     config_read_file(&config_, COMPTON_CONF_DATA_DIR "/compton.conf.example");
   }
+  //Populate vsync types
+  ui->vsync->addItem("none");
+  ui->vsync->addItem("drm");
+  ui->vsync->addItem("opengl");
+  ui->vsync->addItem("opengl-oml");
+  ui->vsync->addItem("opengl-swc");
+  ui->vsync->addItem("opengl-mswc");
 
   // set up signal handlers and initial values of the controls
   connect(ui->buttonBox, SIGNAL(clicked(QAbstractButton*)), SLOT(onDialogButtonClicked(QAbstractButton*)));
@@ -95,6 +102,12 @@ MainDialog::MainDialog(QString userConfigFile) {
         static_cast<QSpinBox*>(child)->setValue(val);
       connect(child, SIGNAL(valueChanged(int)), SLOT(onSpinValueChanged(int)));
     }
+    else if(child->inherits("QComboBox")) {
+        const char* val;
+        if(config_lookup_string(&config_, keyName.constData(), &val) == CONFIG_TRUE)
+      static_cast<QComboBox*>(child)->setCurrentIndex(static_cast<QComboBox*>(child)->findText(val));
+        connect(child, SIGNAL(currentIndexChanged(QString)), SLOT(onComboValueChanged(QString)));
+    }
   }
 }
 
@@ -125,6 +138,13 @@ void MainDialog::onSpinValueChanged(int i) {
   QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
   configSetInt(keyName.constData(), i);
   // saveConfig();
+}
+
+void MainDialog::onComboValueChanged(QString v)
+{
+    qDebug() << "changed: " << sender()->objectName() << ": " << v;
+    QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
+    configSetString(keyName.constData(), v);
 }
 
 void MainDialog::saveConfig() {
@@ -215,4 +235,15 @@ void MainDialog::configSetBool(const char* key, bool val) {
     setting = config_setting_add(root, key, CONFIG_TYPE_BOOL);
   }
   config_setting_set_bool(setting, val);
+}
+
+void MainDialog::configSetString(const char* key, QString val) {
+  config_setting_t* setting = config_lookup(&config_, key);
+  if(!setting) { // setting not found
+    // add a new setting for it
+    config_setting_t* root = config_root_setting(&config_);
+    setting = config_setting_add(root, key, CONFIG_TYPE_STRING);
+  }
+  QByteArray ba = val.toLatin1();
+  config_setting_set_string(setting, ba.data());
 }

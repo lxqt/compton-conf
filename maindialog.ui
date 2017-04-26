@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>493</width>
-    <height>371</height>
+    <width>559</width>
+    <height>457</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -274,80 +274,108 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="fadeTab">
+     <widget class="QWidget" name="vsyncTab">
       <attribute name="title">
-       <string>Fade</string>
+       <string>VSync</string>
       </attribute>
-      <layout class="QFormLayout" name="formLayout_3">
-       <item row="0" column="0" colspan="2">
-        <widget class="QCheckBox" name="fading">
-         <property name="text">
-          <string>Fade windows during opacity changes</string>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="vsync_aggressive">
+         <property name="toolTip">
+          <string>Attempt to send painting request before VBlank and do XFlush()
+  during VBlank. This switch may be lifted out at any moment.
+</string>
          </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="fade_delta_label">
          <property name="text">
-          <string>The time between steps in a fade in milliseconds</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="fade_in_step_label">
-         <property name="text">
-          <string>Opacity change between steps while fading in</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="fade_out_step_label">
-         <property name="text">
-          <string>Opacity change between steps while fading out</string>
+          <string>Aggressive</string>
          </property>
         </widget>
        </item>
        <item row="4" column="0" colspan="2">
-        <widget class="QCheckBox" name="no_fading_openclose">
+        <widget class="QCheckBox" name="sw_opti">
+         <property name="toolTip">
+          <string>  Limit compton to repaint at most once every 1 / refresh_rate
+  second to boost performance.
+</string>
+         </property>
          <property name="text">
-          <string>Avoid fade windows in/out when opening/closing</string>
+          <string>Limit repainting</string>
          </property>
         </widget>
        </item>
-       <item row="2" column="1">
-        <widget class="QDoubleSpinBox" name="fade_in_step">
-         <property name="decimals">
-          <number>3</number>
+       <item row="2" column="0" colspan="2">
+        <widget class="QCheckBox" name="dbe">
+         <property name="toolTip">
+          <string>Enable DBE painting mode, intended to use with VSync to
+  (hopefully) eliminate tearing.
+</string>
          </property>
-         <property name="maximum">
-          <double>1.000000000000000</double>
-         </property>
-         <property name="singleStep">
-          <double>0.010000000000000</double>
-         </property>
-         <property name="value">
-          <double>0.028000000000000</double>
+         <property name="text">
+          <string>DBE</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="1">
-        <widget class="QDoubleSpinBox" name="fade_out_step">
-         <property name="decimals">
-          <number>3</number>
-         </property>
-         <property name="maximum">
-          <double>1.000000000000000</double>
-         </property>
-         <property name="singleStep">
-          <double>0.010000000000000</double>
-         </property>
-         <property name="value">
-          <double>0.030000000000000</double>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Type</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QSpinBox" name="fade_delta"/>
+       <item row="6" column="0" colspan="2">
+        <widget class="QCheckBox" name="glx_no_stencil">
+         <property name="toolTip">
+          <string>GLX backend: Avoid using stencil buffer. Might cause issues
+  when rendering transparent content. My tests show a 15% performance
+  boost.</string>
+         </property>
+         <property name="text">
+          <string>No GLX stencil</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QCheckBox" name="unredir_if_possible">
+         <property name="toolTip">
+          <string>  Unredirect all windows if a full-screen opaque window is
+  detected, to maximize performance for full-screen windows.</string>
+         </property>
+         <property name="text">
+          <string>Unredirect if possible</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="paint_on_overlay">
+         <property name="toolTip">
+          <string>  Painting on X Composite overlay window.
+</string>
+         </property>
+         <property name="text">
+          <string>Paint on overlay</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="vsync">
+         <property name="toolTip">
+          <string>  Set VSync method. There are (up to) 5 VSync methods currently
+  available:
+    none = No VSync
+    drm = VSync with DRM_IOCTL_WAIT_VBLANK. May only work on some
+      (DRI-based) drivers.
+    opengl = Try to VSync with SGI_video_sync OpenGL extension. Only
+      work on some drivers.
+    opengl-oml = Try to VSync with OML_sync_control OpenGL extension.
+      Only work on some drivers.
+    opengl-swc = Try to VSync with SGI_swap_control OpenGL extension.
+      Only work on some drivers. Works only with GLX backend.
+    opengl-mswc = Try to VSync with MESA_swap_control OpenGL
+      extension. Basically the same as opengl-swc above, except the
+      extension we use.
+</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>

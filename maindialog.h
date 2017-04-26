@@ -47,11 +47,13 @@ private:
   void configSetInt(const char* key, int val);
   void configSetFloat(const char* key, double val);
   void configSetBool(const char* key, bool val);
+  void configSetString(const char* key, QString val);
   
 private Q_SLOTS:
   void onButtonToggled(bool checked);
   void onSpinValueChanged(double d);
   void onSpinValueChanged(int i);
+  void onComboValueChanged(QString v);
   void onDialogButtonClicked(QAbstractButton* button);
   void onColorButtonClicked();
   void onAboutButtonClicked();
