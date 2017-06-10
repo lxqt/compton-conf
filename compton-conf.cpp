@@ -3,10 +3,20 @@
 #include <QLocale>
 #include <QLibraryInfo>
 #include <QTranslator>
+#include <QCommandLineParser>
 #include "maindialog.h"
 
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
+
+    QCommandLineParser parser;
+    parser.setApplicationDescription(QStringLiteral("Compton Conf"));
+    const QString VERINFO = QStringLiteral(COMPTONCONF_VERSION
+                                           "\nQt        " QT_VERSION_STR);
+    app.setApplicationVersion(VERINFO);
+    parser.addVersionOption();
+    parser.addHelpOption();
+    parser.process(app);
 
     // load translations
     QTranslator qtTranslator, translator;
