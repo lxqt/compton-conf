@@ -6,6 +6,18 @@ set(LXQTBT_MINIMUM_VERSION "0.1.0")
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
+
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release)
+endif()
+
+set(COMPTONCONF_MAJOR_VERSION 0)
+set(COMPTONCONF_MINOR_VERSION 2)
+set(COMPTONCONF_PATCH_VERSION 2)
+set(COMPTONCONF_VERSION ${COMPTONCONF_MAJOR_VERSION}.${COMPTONCONF_MINOR_VERSION}.${COMPTONCONF_PATCH_VERSION})
+add_definitions("-DCOMPTONCONF_VERSION=\"${COMPTONCONF_VERSION}\"")
+
+
 include(LXQtConfigVars)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
