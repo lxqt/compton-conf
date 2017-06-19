@@ -41,88 +41,89 @@
     <message>
         <location filename="../../maindialog.ui" line="89"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation type="unfinished">ARGB pencereleri ile bazı gariplikleri düzeltin</translation>
+        <translation>ARGB pencereleri ile bazı gariplikleri düzeltin</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="92"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencere arkası maskeleri ve gölgeleri sıfırla</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="99"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation type="unfinished"></translation>
+        <translation>DND pencerelerinde gölge çizme</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="106"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Rıhtım/panel pencerelerinde gölge çizmekten kaçının</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencerede istemci gölgeleri etkinleştirildi</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Tüm şekilli pencerelerde gölge çizmekten kaçının</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="138"/>
         <source>Opacity</source>
-        <translation type="unfinished">Koyuluk</translation>
+        <translation>Koyuluk</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="147"/>
         <source>The opacity for menus</source>
-        <translation type="unfinished">Menüler için koyuluk</translation>
+        <translation>Menüler için koyuluk</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="154"/>
         <source>Default opacity of inactive windows</source>
-        <translation type="unfinished">Etkin olmayan pencere için koyuluk</translation>
+        <translation>Etkin olmayan pencere için koyuluk</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="161"/>
         <source>Default opacity for active windows</source>
-        <translation type="unfinished">Etkin olan pencere için koyuluk</translation>
+        <translation>Etkin olan pencere için koyuluk</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="168"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation type="unfinished">Pencere başlık çubuğu ve kenarlarının koyuluğu</translation>
+        <translation>Pencere başlık çubuğu ve kenarlarının koyuluğu</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="175"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation type="unfinished"></translation>
+        <translation>XRender arka uç: Alfa resimleri için adım boyutu
+(Arttırmak X kaynak kullanımını azaltabilir)</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="183"/>
         <source>Dim inactive windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktif olmayan pencereleri karart</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="190"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Gölgeliğin pencere opaklığına göre ayarlanmasına izin vermeyin</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="197"/>
         <source>Blur background of transparent windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Şeffaf pencerelerin arka planını bulanıklaştır</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="204"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation type="unfinished"></translation>
+        <translation>Şeffaf çerçeveli opak pencerelerin arka planını bulanıklaştır</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="211"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulanıklık yarıçapının pencere opaklığına göre ayarlanmasına izin verme</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="279"/>
@@ -137,22 +138,22 @@
     <message>
         <location filename="../../maindialog.ui" line="292"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Adımlar arasındaki süre, milisaniye cinsinden solsun</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="299"/>
         <source>Opacity change between steps while fading in</source>
-        <translation type="unfinished"></translation>
+        <translation>Solarken adımlar arasındaki opaklık değişimi</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="306"/>
         <source>Opacity change between steps while fading out</source>
-        <translation type="unfinished"></translation>
+        <translation>Solma adımları arasındaki opaklık değişimi</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="313"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation type="unfinished"></translation>
+        <translation>Açma/kapama esnasında pencerelerin olmasını önle</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="356"/>
