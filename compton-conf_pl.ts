@@ -61,7 +61,7 @@
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Włączono cienie okien od strony klienta</translation>
+        <translation>Włącz cienie okien od strony klienta</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
