@@ -110,7 +110,7 @@
        <item row="0" column="0" colspan="2">
         <widget class="QCheckBox" name="shadow">
          <property name="text">
-          <string>Enabled client-side shadows on windows</string>
+          <string>Enable client-side shadows on windows</string>
          </property>
         </widget>
        </item>
