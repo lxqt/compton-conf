@@ -59,9 +59,13 @@
         <translation>Keine Schatten an Dock/Panel-Fenstern</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Aktiviere das Client-seitige Zeichnen von Fensterschatten</translation>
+        <translation type="vanished">Aktiviere das Client-seitige Zeichnen von Fensterschatten</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

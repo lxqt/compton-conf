@@ -59,9 +59,13 @@
         <translation>Καμιά σκίαση σε παράθυρα αποβάθρας/πίνακα</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Ενεργοποίηση σκίασης πλευρά πελάτη στα παράθυρα</translation>
+        <translation type="vanished">Ενεργοποίηση σκίασης πλευρά πελάτη στα παράθυρα</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

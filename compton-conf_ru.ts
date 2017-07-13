@@ -59,9 +59,13 @@
         <translation>Избегать рисования теней на окнах доков/панелей</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Разрешить клиентские тени на окнах</translation>
+        <translation type="vanished">Разрешить клиентские тени на окнах</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

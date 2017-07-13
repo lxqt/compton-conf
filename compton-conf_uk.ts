@@ -59,9 +59,13 @@
         <translation>Уникати малювання тіней на вікні доку/панелі</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Включено клієнтську частину тіней на вікнах</translation>
+        <translation type="vanished">Включено клієнтську частину тіней на вікнах</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

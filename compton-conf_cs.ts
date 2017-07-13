@@ -59,9 +59,13 @@
         <translation>Žádné stíny u oken panelů</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Povolit kreslení stínů oken na straně klienta</translation>
+        <translation type="vanished">Povolit kreslení stínů oken na straně klienta</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

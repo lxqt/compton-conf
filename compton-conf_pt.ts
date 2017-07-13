@@ -59,9 +59,13 @@
         <translation>Não criar sombras nas janelas da doca/painel</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Ativar sombras &quot;client-side&quot; nas janelas</translation>
+        <translation type="vanished">Ativar sombras &quot;client-side&quot; nas janelas</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

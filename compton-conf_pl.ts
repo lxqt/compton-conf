@@ -59,9 +59,13 @@
         <translation>Unikaj wyświetlania cienia przy zadokowanych oknach i panelach</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Włącz cienie okien od strony klienta</translation>
+        <translation type="vanished">Włącz cienie okien od strony klienta</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

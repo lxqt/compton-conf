@@ -59,9 +59,13 @@
         <translation>Éviter de tirer des ombres sur les fenêtres Dock ou tableau de bord</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Activer les ombres du côté client des fenêtres</translation>
+        <translation type="vanished">Activer les ombres du côté client des fenêtres</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

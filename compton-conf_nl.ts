@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language ="nl">
+<TS version="2.1" language="nl">
 <context>
     <name>MainDialog</name>
     <message>
@@ -59,9 +59,13 @@
         <translation>Teken geen schaduwen op dok-/paneelvensters</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Ingeschakelde schaduwen op vensters</translation>
+        <translation type="vanished">Ingeschakelde schaduwen op vensters</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
@@ -76,7 +80,7 @@
     <message>
         <location filename="../../maindialog.ui" line="147"/>
         <source>The opacity for menus</source>
-        <translation>De ondoorzichtigheid voor menu's</translation>
+        <translation>De ondoorzichtigheid voor menu&apos;s</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="154"/>

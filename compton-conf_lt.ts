@@ -59,9 +59,13 @@
         <translation>Vengti braižyti šešėlius ant dėklo/skydelio langų</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Įjungti kliento pusės šešėlius ant langų</translation>
+        <translation type="vanished">Įjungti kliento pusės šešėlius ant langų</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

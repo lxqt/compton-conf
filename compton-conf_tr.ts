@@ -59,9 +59,13 @@
         <translation>Rıhtım/panel pencerelerinde gölge çizmekten kaçının</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Pencerede istemci gölgeleri etkinleştirildi</translation>
+        <translation type="vanished">Pencerede istemci gölgeleri etkinleştirildi</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

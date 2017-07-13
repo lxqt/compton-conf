@@ -59,9 +59,13 @@
         <translation>Undlad at tegne skygger på dok-/panel-vinduer</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Aktiverede klient-side-skygger på vinduer</translation>
+        <translation type="vanished">Aktiverede klient-side-skygger på vinduer</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
