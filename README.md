@@ -22,4 +22,4 @@ To build run `make`, to install `make install` which accepts variable `DESTDIR` 
 ### Binary packages
 
 Official binary packages are available in Arch Linux, Debian (as of Debian stretch) and openSUSE (Leap 42.1 and Tumbleweed).   
-The tool is missing in Fedora so far.   
+The tool is missing in Fedora so far due to incomplete dependency listing and fedora naming conventions to identify fedora dependencies, in addition a large amount of qt packages generally installed separately from the qt libraries.
