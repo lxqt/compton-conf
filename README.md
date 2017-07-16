@@ -17,7 +17,7 @@ Additional build dependencies are CMake and [liblxqt](https://github.com/lxde/li
 
 Code configuration is handled by CMake. CMake variable `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.   
 
-To build run `make`, to install `make install` which accepts variable `DESTDIR` as usual.   
+To build run `cmake .`, `make`, to install `make install` which accepts variable `DESTDIR` as usual.   
 
 ### Binary packages
 
