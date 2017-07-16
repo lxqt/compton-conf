@@ -65,7 +65,7 @@
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Įjungti kliento pusės šešėlius ant langų</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
