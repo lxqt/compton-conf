@@ -101,7 +101,8 @@
         <location filename="../../maindialog.ui" line="175"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>Back-end XRender: rozmiar kroku dla zasobów przezroczystych (Jego zwiększenie może skutkować mniejszym użyciem zasobów X)</translation>
+        <translation>Back-end XRender: rozmiar kroku dla zasobów przezroczystych
+(Jego zwiększenie może skutkować mniejszym użyciem zasobów X)</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="183"/>
