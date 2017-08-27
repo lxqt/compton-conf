@@ -56,7 +56,7 @@
     <message>
         <location filename="../../maindialog.ui" line="106"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Evita dibuixar les ombres en les finestres de l&apos;acobladors o del plafó</translation>
+        <translation>Evita dibuixar les ombres en les finestres des acobladors o dels plafons</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="113"/>
