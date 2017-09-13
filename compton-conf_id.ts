@@ -168,12 +168,12 @@
     <message>
         <location filename="../../maindialog.ui" line="375"/>
         <source>About</source>
-        <translation>Tantang</translation>
+        <translation>Tentang</translation>
     </message>
     <message>
         <location filename="../../maindialog.cpp" line="179"/>
         <source>About ComptonConf</source>
-        <translation>Tantang ComptonConf</translation>
+        <translation>Tentang ComptonConf</translation>
     </message>
     <message>
         <location filename="../../maindialog.cpp" line="180"/>
