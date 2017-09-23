@@ -1,7 +1,39 @@
 
-compton-conf-0.2.1 / 2016-12-11
+compton-conf-0.3.0 / 2017-09-24
 ===============================
 
+  * .github added to .gitattributes
+  * bump version to 0.3.0 and tools version to 0.4.0
+  * Added *lt.desktop
+  * Added Lithuanian language
+  * liblxqt don't make sense here
+  * Copied issue template
+  * Fixed typo
+  * set Qt::AA_UseHighDpiPixmaps to true
+  * Added basic cli interface to compton-conf
+  * Added default CMAKE_BUILD_TYPE and proper version
+  * added *pl.desktop
+  * Included LXQtConfigVars in CMakeLists.txt
+  * Added subdirectory autostart (merged from lxqt-common)
+  * Updated *_da.desktop files and removed *_da_DK.desktop files
+  * Update Greek translation (el) Remove country variant from language code
+  * CMake: Adds Runtime and Devel install COMPONENTs
+  * Coding style changes
+  * Updates the build system to use the Targets infrastructure
+  * Drops hardcoded /etc/xdg paths
+  * Updated german translation, replaced Qt4 by Qt in all xsession/translations
+  * Portuguese update for .desktop files
+  * Updates translations infrastructure
+  * Update the required minimum cmake version
+  * Add compton to autostart (turned off by default).
+  * Support lxqt-session and add necessary xdg autostart desktop entry files.
+  * Bump year
+  * Added *da.desktop
+
+0.2.1 / 2016-12-11
+==================
+
+  * Release 0.2.1: Update changelog
   * Created compton-conf_it.desktop, removed unused lines (#36)
   * Create compton-conf_fr.desktop
   * Use the new lxqt-build-tools package
