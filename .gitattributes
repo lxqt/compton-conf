@@ -1,7 +1,8 @@
 # remove files from deployment using `git archive`
 
-# git files
+# git* files
 .gitattributes export-ignore
+.github        export-ignore
 .gitignore     export-ignore
 
 
@@ -12,7 +13,6 @@
 .*~        export-ignore
 .kdev4     export-ignore
 release.sh export-ignore
-.github    export-ignore
 
 /build export-ignore
 /temp  export-ignore
