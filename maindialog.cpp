@@ -95,6 +95,22 @@ MainDialog::MainDialog(QString userConfigFile) {
         static_cast<QSpinBox*>(child)->setValue(val);
       connect(child, SIGNAL(valueChanged(int)), SLOT(onSpinValueChanged(int)));
     }
+    else if(child->inherits("QRadioButton")) {
+      if(child->parent()->inherits("QGroupBox")) {
+        QByteArray groupKeyName = child->parent()->objectName().replace('_', '-').toLatin1();
+        if(keyName.startsWith(groupKeyName)) {
+          const char *val;
+          if(config_lookup_string(&config_, groupKeyName.constData(), &val) == CONFIG_TRUE)
+              static_cast<QRadioButton*>(child)->setChecked(keyName == groupKeyName.append('-').append(val));
+          connect(child, SIGNAL(toggled(bool)), SLOT(onRadioGroupToggled(bool)));
+          continue;
+        }
+      }
+      int val = -1;
+      if(config_lookup_bool(&config_, keyName.constData(), &val) == CONFIG_TRUE)
+        static_cast<QRadioButton*>(child)->setChecked((bool)val);
+      connect(child, SIGNAL(toggled(bool)), SLOT(onButtonToggled(bool)));
+    }
   }
 }
 
@@ -125,6 +141,17 @@ void MainDialog::onSpinValueChanged(int i) {
   QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
   configSetInt(keyName.constData(), i);
   // saveConfig();
+}
+
+void MainDialog::onRadioGroupToggled(bool checked) {
+  if (checked) {
+    qDebug() << "toggled: " << sender()->objectName();
+    // generate config key from objectName.
+    QByteArray keyName = sender()->parent()->objectName().replace('_', '-').toLatin1();
+    QByteArray val = sender()->objectName().right(sender()->objectName().size() - (keyName.size() + 1)).replace('_', '-').toLatin1();
+    configSetString(keyName.constData(), val);
+    // saveConfig();
+  }
 }
 
 void MainDialog::saveConfig() {
@@ -215,4 +242,15 @@ void MainDialog::configSetBool(const char* key, bool val) {
     setting = config_setting_add(root, key, CONFIG_TYPE_BOOL);
   }
   config_setting_set_bool(setting, val);
+}
+
+void MainDialog::configSetString(const char *key, const char *val)
+{
+  config_setting_t* setting = config_lookup(&config_, key);
+  if(!setting) { // setting not found
+    // add a new setting for it
+    config_setting_t* root = config_root_setting(&config_);
+    setting = config_setting_add(root, key, CONFIG_TYPE_STRING);
+  }
+  config_setting_set_string(setting, val);
 }
