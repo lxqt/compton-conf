@@ -47,7 +47,8 @@ private:
   void configSetInt(const char* key, int val);
   void configSetFloat(const char* key, double val);
   void configSetBool(const char* key, bool val);
-  
+  void configSetString(const char* key, const char* val);
+
 private Q_SLOTS:
   void onButtonToggled(bool checked);
   void onSpinValueChanged(double d);
@@ -55,6 +56,7 @@ private Q_SLOTS:
   void onDialogButtonClicked(QAbstractButton* button);
   void onColorButtonClicked();
   void onAboutButtonClicked();
+  void onRadioGroupToggled(bool checked);
 
 private:
   Ui::MainDialog* ui;
