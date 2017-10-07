@@ -165,22 +165,36 @@
         <translation>Inne</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="362"/>
-        <source>Not implemented yet</source>
-        <translation>Nie zaimplementowano</translation>
+        <location filename="../../maindialog.ui" line="368"/>
+        <source>Rendering backend</source>
+        <translation>Back-end renderowania</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="375"/>
+        <location filename="../../maindialog.ui" line="380"/>
+        <source>X Render</source>
+        <translation>X Render</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="387"/>
+        <source>GLX (OpenGL)</source>
+        <translation>GLX (OpenGL)</translation>
+    </message>
+    <message>
+        <source>Not implemented yet</source>
+        <translation type="vanished">Nie zaimplementowano</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="403"/>
         <source>About</source>
         <translation>O programie</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="179"/>
+        <location filename="../../maindialog.cpp" line="206"/>
         <source>About ComptonConf</source>
         <translation>O ComptonConf</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="180"/>
+        <location filename="../../maindialog.cpp" line="207"/>
         <source>ComptonConf - configuration tool for compton
 
 Copyright (C) 2013
