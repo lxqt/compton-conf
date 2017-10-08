@@ -171,17 +171,17 @@ juos atveriant/užveriant</translation>
     <message>
         <location filename="../../maindialog.ui" line="368"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Atvaizdavimo vidinė pusė</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="380"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="387"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <source>Not implemented yet</source>
