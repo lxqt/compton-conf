@@ -24,6 +24,43 @@
        <string>Shadow</string>
       </attribute>
       <layout class="QFormLayout" name="formLayout">
+       <property name="verticalSpacing">
+        <number>5</number>
+       </property>
+       <property name="bottomMargin">
+        <number>3</number>
+       </property>
+       <item row="0" column="0" colspan="2">
+        <widget class="QCheckBox" name="shadow">
+         <property name="text">
+          <string>Enable client-side shadows on windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="no_dock_shadow">
+         <property name="text">
+          <string>Avoid drawing shadows on dock/panel windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QCheckBox" name="no_dnd_shadow">
+         <property name="text">
+          <string>Don't draw shadows on DND windows</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="clear_shadow">
+         <property name="toolTip">
+          <string>Fix some weirdness with ARGB windows</string>
+         </property>
+         <property name="text">
+          <string>Zero the part of the shadow's mask behind the window</string>
+         </property>
+        </widget>
+       </item>
        <item row="4" column="0">
         <widget class="QLabel" name="shadow_radius_label">
          <property name="text">
@@ -69,6 +106,16 @@
          </property>
         </widget>
        </item>
+       <item row="7" column="1">
+        <widget class="QDoubleSpinBox" name="shadow_opacity">
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
+       </item>
        <item row="8" column="0">
         <widget class="QLabel" name="label_5">
          <property name="text">
@@ -83,37 +130,6 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="0" colspan="2">
-        <widget class="QCheckBox" name="clear_shadow">
-         <property name="toolTip">
-          <string>Fix some weirdness with ARGB windows</string>
-         </property>
-         <property name="text">
-          <string>Zero the part of the shadow's mask behind the window</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0" colspan="2">
-        <widget class="QCheckBox" name="no_dnd_shadow">
-         <property name="text">
-          <string>Don't draw shadows on DND windows</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="2">
-        <widget class="QCheckBox" name="no_dock_shadow">
-         <property name="text">
-          <string>Avoid drawing shadows on dock/panel windows</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0" colspan="2">
-        <widget class="QCheckBox" name="shadow">
-         <property name="text">
-          <string>Enable client-side shadows on windows</string>
-         </property>
-        </widget>
-       </item>
        <item row="9" column="0" colspan="2">
         <widget class="QCheckBox" name="shadow_ignore_shaped">
          <property name="text">
@@ -121,13 +137,10 @@
          </property>
         </widget>
        </item>
-       <item row="7" column="1">
-        <widget class="QDoubleSpinBox" name="shadow_opacity">
-         <property name="maximum">
-          <double>1.000000000000000</double>
-         </property>
-         <property name="singleStep">
-          <double>0.050000000000000</double>
+       <item row="10" column="0" colspan="2">
+        <widget class="QCheckBox" name="xinerama_shadow_crop">
+         <property name="text">
+          <string>Crop shadows of maximized windows from extended displays</string>
          </property>
         </widget>
        </item>
