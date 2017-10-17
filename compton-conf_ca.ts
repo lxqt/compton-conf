@@ -56,7 +56,7 @@
     <message>
         <location filename="../../maindialog.ui" line="106"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Evita dibuixar les ombres en les finestres des acobladors o dels plafons</translation>
+        <translation>Evita dibuixar les ombres en les finestres dels acobladors o dels plafons</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="113"/>
@@ -163,17 +163,17 @@
     <message>
         <location filename="../../maindialog.ui" line="368"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Dorsal de renderització</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="380"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderitzador de les X</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="387"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <source>Not implemented yet</source>
