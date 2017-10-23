@@ -59,13 +59,9 @@
         <translation>Éviter de tirer des ombres sur les fenêtres Dock ou tableau de bord</translation>
     </message>
     <message>
-        <source>Enabled client-side shadows on windows</source>
-        <translation type="vanished">Activer les ombres du côté client des fenêtres</translation>
-    </message>
-    <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer les ombres côté client, sur les fenêtres</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
@@ -165,36 +161,22 @@
         <translation>Autre</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="368"/>
-        <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../maindialog.ui" line="380"/>
-        <source>X Render</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../maindialog.ui" line="387"/>
-        <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <location filename="../../maindialog.ui" line="362"/>
         <source>Not implemented yet</source>
-        <translation type="vanished">Non implémenté, actuellement</translation>
+        <translation>Non implémenté, actuellement</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="403"/>
+        <location filename="../../maindialog.ui" line="375"/>
         <source>About</source>
         <translation>à propos</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="206"/>
+        <location filename="../../maindialog.cpp" line="179"/>
         <source>About ComptonConf</source>
         <translation>à propos de ComptonConf</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="207"/>
+        <location filename="../../maindialog.cpp" line="180"/>
         <source>ComptonConf - configuration tool for compton
 
 Copyright (C) 2013
