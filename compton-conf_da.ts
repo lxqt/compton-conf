@@ -61,7 +61,7 @@
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Aktiver klient-side-skygger på vinduer</translation>
+        <translation>Aktivér klient-side-skygger på vinduer</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
