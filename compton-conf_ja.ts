@@ -65,7 +65,7 @@
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>ウインドウのクライアント側の影を有効にする</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
