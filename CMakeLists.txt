@@ -47,8 +47,9 @@ pkg_check_modules(LIBCONFIG REQUIRED
 )
 
 include(GNUInstallDirs REQUIRED)
+include(LXQtCompilerSettings NO_POLICY_SCOPE) # must be after cmake_minimum_required()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS -fno-exceptions")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_NO_KEYWORDS")
 
 if(USE_QT4)
   set(QTX_INCLUDE_DIRS ${QT_QTCORE_INCLUDE_DIR} ${QT_QTGUI_INCLUDE_DIR} ${QT_QTDBUS_DIR})
