@@ -1,6 +1,6 @@
 project(compton-conf)
 
-cmake_minimum_required(VERSION 2.8.12)
+cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
 set(LXQTBT_MINIMUM_VERSION "0.4.0")
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
@@ -33,7 +33,7 @@ if(USE_QT4)
   include(${QT_USE_FILE})
   message(STATUS "Building with Qt${QTVERSION}")
 else()
-  cmake_minimum_required(VERSION 2.8.11)
+  cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5DBus REQUIRED)
   find_package(Qt5LinguistTools REQUIRED QUIET)
