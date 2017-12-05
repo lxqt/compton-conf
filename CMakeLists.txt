@@ -111,6 +111,8 @@ else()
   qt5_wrap_ui(compton-conf_UI_H ${compton-conf_UIS})
 endif()
 
+set_property(SOURCE ${compton-conf_UI_H} PROPERTY SKIP_AUTOMOC ON)
+
 add_definitions(
   -DCOMPTON_CONF_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/compton-conf"
 )
