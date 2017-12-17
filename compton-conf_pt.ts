@@ -65,7 +65,7 @@
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar sombra &apos;client-side&apos; nas janelas</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
@@ -167,17 +167,17 @@
     <message>
         <location filename="../../maindialog.ui" line="368"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderização</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="380"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="387"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <source>Not implemented yet</source>
@@ -201,7 +201,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf - ferramenta de configuração para o compton
 
-Copyright (C) 2013-2016
+Copyright (C) 2013-2017
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
