@@ -65,7 +65,7 @@
     <message>
         <location filename="../../maindialog.ui" line="113"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποίηση σκίασης πλευρά πελάτη στα παράθυρα</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
@@ -85,7 +85,7 @@
     <message>
         <location filename="../../maindialog.ui" line="154"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Αδιαφάνεια εξ ορισμού για τα με ενεργά παράθυρα</translation>
+        <translation>Αδιαφάνεια εξ ορισμού για τα μη ενεργά παράθυρα</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="161"/>
@@ -167,17 +167,17 @@
     <message>
         <location filename="../../maindialog.ui" line="368"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Σύστημα υποστήριξης αποτύπωσης</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="380"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="387"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <source>Not implemented yet</source>
