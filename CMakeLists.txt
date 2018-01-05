@@ -29,10 +29,13 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_AUTOMOC ON)
 
 if(USE_QT4)
+  set(USE_QT5 FALSE)
   find_package(Qt4 REQUIRED QtCore QtGui QtDbus)
   include(${QT_USE_FILE})
+  add_definitions(-DUSE_QT4)
   message(STATUS "Building with Qt${QTVERSION}")
 else()
+  set(USE_QT5 TRUE)
   cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5DBus REQUIRED)
@@ -85,7 +88,7 @@ set(compton-conf_DESKTOP_FILES_IN
 )
 
 lxqt_translate_ts(compton-conf_QM_FILES
-    USE_QT4 ${USE_QT4}
+    USE_QT5 ${USE_QT5}
     UPDATE_TRANSLATIONS ${UPDATE_TRANSLATIONS}
     SOURCES
         ${compton-conf_HS}
