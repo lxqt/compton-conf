@@ -3,11 +3,14 @@
 #include <QLocale>
 #include <QLibraryInfo>
 #include <QTranslator>
+#ifndef USE_QT4
 #include <QCommandLineParser>
+#endif
 #include "maindialog.h"
 
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
+#ifndef USE_QT4
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
     QCommandLineParser parser;
@@ -18,6 +21,7 @@ int main(int argc, char** argv) {
     parser.addVersionOption();
     parser.addHelpOption();
     parser.process(app);
+#endif
 
     // load translations
     QTranslator qtTranslator, translator;
