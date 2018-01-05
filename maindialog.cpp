@@ -72,7 +72,10 @@ MainDialog::MainDialog(QString userConfigFile) {
   updateShadowColorButton();
 
   // objectNames are kept the same as config file key names.
-  Q_FOREACH(QWidget* child, findChildren<QWidget*>()) {
+  const QList<QWidget*> widgets = findChildren<QWidget*>();
+  QList<QWidget*>::const_iterator i;
+  for(i = widgets.constBegin(); i != widgets.constEnd(); ++i) {
+    QWidget *child = *i;
     if(!child->isWidgetType() || child->objectName().isEmpty())
       continue;
     // objectName uses _ while config file keys uses - as separator.
