@@ -14,164 +14,169 @@
         <translation>Bayangan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="30"/>
+        <location filename="../../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
         <translation>Radius blur untuk bayangan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="40"/>
+        <location filename="../../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
         <translation>Offset kiri untuk bayangan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="54"/>
+        <location filename="../../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
         <translation>Offset atas untuk bayangan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="68"/>
+        <location filename="../../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
         <translation>Keburaman untuk bayangan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="75"/>
+        <location filename="../../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
         <translation>Warna bayangan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="89"/>
+        <location filename="../../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
         <translation>Perbaiki beberapa keanehan dengan jendela ARGB</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="92"/>
+        <location filename="../../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
         <translation>Setel topeng bayangan di balik jendela ke nol</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="99"/>
+        <location filename="../../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
         <translation>Jangan menggambar bayangan di jendela DND</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="106"/>
+        <location filename="../../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
         <translation>Hindari menggambar bayangan di jendela dock/panel</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
+        <location filename="../../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
         <translation>Aktifkan bayangan sisi klien di jendela</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="120"/>
+        <location filename="../../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
         <translation>Hindari menggambar bayangan pada semua jendela berbentuk</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="138"/>
+        <location filename="../../maindialog.ui" line="143"/>
+        <source>Crop shadows of maximized windows from extended displays</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="151"/>
         <source>Opacity</source>
         <translation>Opasitas</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="147"/>
+        <location filename="../../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
         <translation>Opasitas untuk menu</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="154"/>
+        <location filename="../../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
         <translation>Opasitas standar jendela yang tidak aktif</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="161"/>
+        <location filename="../../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
         <translation>Opasitas standar jendela yang aktif</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="168"/>
+        <location filename="../../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
         <translation>Opasitas dari bilah judul dan border</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="175"/>
+        <location filename="../../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
         <translation>XRender backend: Ukuran langkah untuk gambar alfa
 (Meningkatkannya bisa berakibat pada berkurangnya penggunaan sumber daya X)</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="183"/>
+        <location filename="../../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
         <translation>Redupkan jendela yang tidak aktif</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="190"/>
+        <location filename="../../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
         <translation>Tingkat keredupan tidak tergantung pada opasitas jendela</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="197"/>
+        <location filename="../../maindialog.ui" line="210"/>
         <source>Blur background of transparent windows</source>
         <translation>Latar belakang blur di jendela transparan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="204"/>
+        <location filename="../../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
         <translation>Latar belakang blur di jendela buram dengan bingkai transparan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="211"/>
+        <location filename="../../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
         <translation>Radius blur tidak tergantung pada opasitas jendela</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="279"/>
+        <location filename="../../maindialog.ui" line="292"/>
         <source>Fade</source>
         <translation>Pudar</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="285"/>
+        <location filename="../../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
         <translation>Pudarkan jendela saat perubahan opasitas</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="292"/>
+        <location filename="../../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
         <translation>Waktu antara langkah memudar dalam milidetik</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="299"/>
+        <location filename="../../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
         <translation>Perubahan opasitas antar langkah saat angsur jelas</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="306"/>
+        <location filename="../../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
         <translation>Perubahan opasitas antar langkah saat angsur pudar</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="313"/>
+        <location filename="../../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
         <translation>Cegah angsur jelas/pudar saat membuka/menutup jendela</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="356"/>
+        <location filename="../../maindialog.ui" line="369"/>
         <source>Other</source>
         <translation>Lainnya</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="368"/>
+        <location filename="../../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="380"/>
+        <location filename="../../maindialog.ui" line="393"/>
         <source>X Render</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="387"/>
+        <location filename="../../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -180,17 +185,17 @@
         <translation type="vanished">Belum diimplementasikan</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="403"/>
+        <location filename="../../maindialog.ui" line="416"/>
         <source>About</source>
         <translation>Tentang</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="206"/>
+        <location filename="../../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
         <translation>Tentang ComptonConf</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="207"/>
+        <location filename="../../maindialog.cpp" line="210"/>
         <source>ComptonConf - configuration tool for compton
 
 Copyright (C) 2013
