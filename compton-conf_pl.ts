@@ -75,7 +75,7 @@
     <message>
         <location filename="../../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Przycinaj cienie zmaksymalizowanych okien z dodatkowych ekranów</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="151"/>
