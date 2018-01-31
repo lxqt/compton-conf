@@ -97,8 +97,8 @@
         <location filename="../../maindialog.ui" line="175"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>XRender 后端: 透明图像的步骤值
-(增加此值可能导致 X 资源用量变少)</translation>
+        <translation>XRender 后端: 透明图像的幅度值
+（增加此值可能导致 X 资源用量变少）</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="183"/>
