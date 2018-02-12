@@ -76,7 +76,7 @@ X Shape plėtinį</translation>
     <message>
         <location filename="../../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Apkirpti išskleistų langų šešėlius iš išplėstų ekranų</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="151"/>
