@@ -4,7 +4,7 @@
 
 compton-conf is a configuration tool for X composite manager [Compton](https://github.com/chjj/compton).   
 
-![Screenshot of compton-conf running on awesome-wm](http://i.imgur.com/2fSiAx8.png)
+![Screenshot of compton-conf running on awesome-wm](https://i.imgur.com/2fSiAx8.png)
 
 It is maintained by the LXQt project but can be used independently from this desktop environment.   
 
