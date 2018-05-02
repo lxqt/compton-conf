@@ -1,7 +1,7 @@
 project(compton-conf)
 
 cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
-set(LXQTBT_MINIMUM_VERSION "0.4.0")
+set(LXQTBT_MINIMUM_VERSION "0.5.0")
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
@@ -21,6 +21,7 @@ add_definitions(
 )
 
 
+include(LXQtPreventInSourceBuilds)
 include(LXQtConfigVars)
 include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
