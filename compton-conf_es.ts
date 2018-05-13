@@ -16,22 +16,22 @@
     <message>
         <location filename="../../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>El radio de desenfoque de las sombras</translation>
+        <translation>Radio de desenfoque de las sombras</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>El desplazamiento a la izquierda de las sombras</translation>
+        <translation>Desplazamiento a la izquierda de las sombras</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>El desplazamiento hacia arriba de las sobras</translation>
+        <translation>Desplazamiento hacia arriba de las sobras</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>La traslucidez de las sombras</translation>
+        <translation>Traslucidez de las sombras</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="122"/>
@@ -81,7 +81,7 @@
     <message>
         <location filename="../../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation>La opacidad de los menús</translation>
+        <translation>Opacidad de los menús</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="167"/>
@@ -198,7 +198,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf - utilidad de configuración para compton
 
-Derechos de autor (C) 2013
+Copyright (C) 2013
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
