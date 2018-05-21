@@ -1,7 +1,32 @@
 
-compton-conf-0.3.0 / 2017-09-24
+compton-conf-0.4.0 / 2018-05-21
 ===============================
 
+  * Bumped minor version to 4
+  * Spanish translation update
+  * CMake: Prevent in-source builds
+  * http -> https
+  * Fixed repo pathes
+  * Update zh_TW desktop entry
+  * Add Traditional Chinese desktop entry
+  * Add Simplified Chinese desktop entry
+  * Drop Qt foreach
+  * Fix FTBFS with Qt4
+  * Add checkbox for option xinerama-shadow-crop
+  * Remove categories for Gnome
+  * Use default icon of compton for compton-conf
+  * Add Categories for Xfce and Gnome
+  * cmake: Handle CMP0071
+  * cmake: Use LXQtCompilerSettings
+  * cmake: Update minimum required version
+  * Add Catalan translation
+  * Add RadioButtons for setting the rendering backend
+  * Don't export github templates
+
+0.3.0 / 2017-09-24
+==================
+
+  * Release 0.3.0: Update changelog
   * .github added to .gitattributes
   * bump version to 0.3.0 and tools version to 0.4.0
   * Added *lt.desktop
