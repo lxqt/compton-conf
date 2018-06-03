@@ -100,14 +100,6 @@ lxqt_translate_ts(compton-conf_QM_FILES
         ${compton-conf_UIS}
     INSTALL_DIR
         ${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}/translations
-    PULL_TRANSLATIONS
-        ${PULL_TRANSLATIONS}
-    CLEAN_TRANSLATIONS
-        ${CLEAN_TRANSLATIONS}
-    TRANSLATIONS_REPO
-        ${TRANSLATIONS_REPO}
-    TRANSLATIONS_REFSPEC
-        ${TRANSLATIONS_REFSPEC}
 )
 
 lxqt_translate_desktop(compton-conf_DESKTOP_FILES SOURCES ${compton-conf_DESKTOP_FILES_IN})
