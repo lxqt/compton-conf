@@ -168,7 +168,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Rendering-Backend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
