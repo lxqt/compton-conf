@@ -108,7 +108,7 @@
     <message>
         <location filename="../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
-        <translation>Abdunkeln von inaktiven Fenstern</translation>
+        <translation>Inaktive Fenster abdunkeln</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="203"/>
