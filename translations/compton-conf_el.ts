@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Περικοπή της σκίασης των μεγιστοποιημένων παραθύρων σε επεκτεινόμενες προβολές</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
