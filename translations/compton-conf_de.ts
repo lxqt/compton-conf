@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiviere clientseitige Fensterschatten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Entferne Schatten maximierter Fenster bei geräteübergreifender Darstellung</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -173,7 +173,7 @@
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X-Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
