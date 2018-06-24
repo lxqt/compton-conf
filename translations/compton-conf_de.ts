@@ -36,7 +36,7 @@
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation>Schattenfarbe</translation>
+        <translation>Farbe des Schattens</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Keine Schatten beim Verschieben von Fenstern</translation>
+        <translation>Keine Schatten beim Verschieben von Drag&amp;Drop Fenstern zeichnen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Keine Schatten an Dock/Panel-Fenstern</translation>
+        <translation>Keine Schatten an Dock/Panel-Fenstern zeichnen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
