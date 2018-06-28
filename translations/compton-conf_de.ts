@@ -198,7 +198,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf - Konfigurationswerkzeug für compton
 
-Copyright (C) 2013
+Urheberrecht (C) 2013
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
