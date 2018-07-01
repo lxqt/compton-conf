@@ -29,5 +29,5 @@ The tool is missing in Fedora so far.
 ### Translation (Weblate)
 
 <a href="https://weblate.lxqt.org/projects/lxqt/compton-conf/">
-<img src="https://weblate.lxqt.org/widgets/lxqt/compton-conf/multi-auto.svg" alt="Translation status" />
+<img src="https://weblate.lxqt.org/widgets/lxqt/-/compton-conf/multi-auto.svg" alt="Translation status" />
 </a>
