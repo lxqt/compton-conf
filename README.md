@@ -25,3 +25,9 @@ To build run `make`, to install `make install` which accepts variable `DESTDIR` 
 
 Official binary packages are available in Arch Linux, Debian (as of Debian stretch) and openSUSE (Leap 42.1 and Tumbleweed).   
 The tool is missing in Fedora so far.   
+
+### Translation
+
+<a href="https://weblate.lxqt.org/projects/lxqt/compton-conf/">
+<img src="https://weblate.lxqt.org/widgets/lxqt/de/compton-conf/multi-auto.svg" alt="Translation status" />
+</a>
