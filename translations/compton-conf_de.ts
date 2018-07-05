@@ -21,17 +21,17 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>Versatz von links</translation>
+        <translation>Versatz von links für Schatten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Versatz von oben</translation>
+        <translation>Versatz von oben für Schatten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>Lichtdurchlässigkeit</translation>
+        <translation>Transparenz der Schatten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
