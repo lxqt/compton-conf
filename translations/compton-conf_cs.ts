@@ -16,7 +16,7 @@
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>Poloměr neostrosti</translation>
+        <translation>Poloměr dosahu neostrosti stínů</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
