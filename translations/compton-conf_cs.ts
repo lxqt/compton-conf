@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Stínovat okna na straně klienta grafického serveru</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Oříznout stíny maximalizovaných oken z rozšířených displejů</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -168,17 +168,17 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Vykreslovací podpůrná vrstva</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
