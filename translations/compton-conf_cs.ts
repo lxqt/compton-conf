@@ -21,17 +21,17 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>Posun zleva</translation>
+        <translation>Odsazení stínů zleva</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Posun shora</translation>
+        <translation>Odsazení stínů shora</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>Propustnost světla</translation>
+        <translation>Průsvitnost stínů</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
@@ -41,17 +41,17 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>Opravy zvláštností oken ARGB</translation>
+        <translation>Opravy zvláštností průhledných oken</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Vypnout masku stínu za oknem</translation>
+        <translation>Vypnout tu část masky stínu, která se nachází za oknem</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Žádné stíny při posunování oken</translation>
+        <translation>Nevykreslovat okna oknech nevyrušovat</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
@@ -102,8 +102,8 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>XRender Backend: Velikost kroku pro obrázky s průsvitností
-(vyšší hodnoty mohou vést k menšímu používání zdrojů X)</translation>
+        <translation>XRender podpůrná vrstva: Velikost kroku pro obrázky s průhledností
+(vyšší hodnoty mohou vést k nižšímu zatěžování prostředků grafického X serveru)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -183,7 +183,7 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation>O programu</translation>
+        <translation>O aplikaci</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
@@ -196,7 +196,7 @@
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf - nástroj na nastavení pro compton
+        <translation>ComptonConf – nástroj na nastavení pro compton
 
 Autorské právo (C) 2013
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
