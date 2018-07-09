@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить отрисовку теней на окнах на стороне клиента</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
@@ -72,7 +72,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Исключить тени развернутых окон с других экранов</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -178,12 +178,12 @@
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Рендер X.org</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
