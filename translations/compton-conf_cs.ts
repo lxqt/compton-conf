@@ -16,7 +16,7 @@
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>Poloměr dosahu neostrosti stínů</translation>
+        <translation>Poloměr rozsahu rozmazání stínů</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>Opravy zvláštností průhledných oken</translation>
+        <translation>Opravovat zvláštnosti průhledných oken</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Nevykreslovat okna oknech nevyrušovat</translation>
+        <translation>Nevykreslovat stíny posunovaných oken</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Žádné stíny u oken panelů</translation>
+        <translation>Žádné stíny u oken panelů/ukotvení</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
@@ -66,12 +66,12 @@
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Žádné stíny u všech tvarovaných oken</translation>
+        <translation>Žádné stíny u jakýchkoli tvarovaných oken</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Oříznout stíny maximalizovaných oken z rozšířených displejů</translation>
+        <translation>Oříznout stíny maximalizovaných oken, aby nepřesahovaly na vedlejší rozšiřující obrazovku</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -128,22 +128,22 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Poloměr rozmazání je nezávislý na neprůhlednosti okna</translation>
+        <translation>Poloměr rozsahu rozmazání je nezávislý na neprůhlednosti okna</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
         <source>Fade</source>
-        <translation>Prolínat</translation>
+        <translation>Prolínání</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation>Účinek prolínání při změnách neprůhlednosti</translation>
+        <translation>Při změnách neprůhlednosti prolínat okna</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>Čas mezi kroky prolínání v milisekundách</translation>
+        <translation>Prodleva mezi fázemi prolínání (v milisekundách)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Vyhnout se účinku prolínání při otevírání/zavírání oken</translation>
+        <translation>Neprolínat okna při jejich otevírání/zavírání</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
@@ -198,7 +198,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf – nástroj na nastavení pro compton
 
-Autorské právo (C) 2013
+Autorské právo © 2013
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
