@@ -103,7 +103,7 @@
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
         <translation>XRender podpůrná vrstva: Velikost kroku pro obrázky s průhledností
-(vyšší hodnoty mohou vést k nižšímu zatěžování prostředků grafického X serveru)</translation>
+(vyšší hodnoty mohou snížit zatěžování prostředků grafického X serveru)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -163,7 +163,7 @@
     <message>
         <location filename="../maindialog.ui" line="369"/>
         <source>Other</source>
-        <translation>Jiné</translation>
+        <translation>Ostatní</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="381"/>
