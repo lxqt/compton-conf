@@ -183,7 +183,7 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation>à propos</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
