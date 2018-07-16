@@ -51,7 +51,7 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Nevykreslovat stíny posunovaných oken</translation>
+        <translation>Při jejich přemisťování na obrazovce, nevykreslovat těmto oknům stíny</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
@@ -66,7 +66,7 @@
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Žádné stíny u jakýchkoli tvarovaných oken</translation>
+        <translation>Žádné stíny u jakýchkoli tvarovaných (nečtyřúhelníkových) oken</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
@@ -196,7 +196,7 @@
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation>ComptonConf – nástroj na nastavení pro compton
+        <translation>ComptonConf – nástroj pro nastavení kompozitoru compton
 
 Autorské právo © 2013
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
