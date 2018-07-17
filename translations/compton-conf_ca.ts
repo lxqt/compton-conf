@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Retalla les ombres de les finestres maximitzades de les pantalles ampliades</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
