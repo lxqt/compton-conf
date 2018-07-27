@@ -125,7 +125,7 @@ add_executable(compton-conf
 
 target_link_libraries(compton-conf
   ${QTX_LIBRARIES}
-  ${LIBCONFIG_LIBRARIES}
+  ${LIBCONFIG_LDFLAGS}
 )
 
 install(TARGETS compton-conf RUNTIME DESTINATION bin)
