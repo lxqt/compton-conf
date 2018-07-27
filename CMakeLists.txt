@@ -124,7 +124,7 @@ add_executable(compton-conf
 )
 
 target_link_libraries(compton-conf
-  ${QTX_LDFLAGS}
+  ${QTX_LIBRARIES}
   ${LIBCONFIG_LDFLAGS}
 )
 
