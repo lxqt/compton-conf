@@ -42,7 +42,7 @@ else()
   cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
   find_package(Qt5Widgets REQUIRED)
   find_package(Qt5DBus REQUIRED)
-  find_package(Qt5LinguistTools REQUIRED QUIET)
+  find_package(Qt5LinguistTools REQUIRED)
   message(STATUS "Building with Qt${Qt5Core_VERSION_STRING}")
 endif()
 
