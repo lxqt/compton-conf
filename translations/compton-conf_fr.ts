@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Concentrez la partie du masque de l&apos;ombre derrière la fenêtre</translation>
+        <translation type="unfinished">Concentrez la partie du masque de l&apos;ombre derrière la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Ne laissez pas le réglage du rayon flou en fonction de l&apos;opacité de la fenêtre</translation>
+        <translation type="unfinished">Ne laissez pas le réglage du rayon flou en fonction de l&apos;opacité de la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
@@ -153,12 +153,12 @@
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Opacité entre les étapes d&apos;un fondu sortant</translation>
+        <translation type="unfinished">Opacité entre les étapes d&apos;un fondu sortant</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Éviter le fondu d&apos;entrée/sortie lors de l&apos;ouverture/fermeture des fenêtres</translation>
+        <translation type="unfinished">Éviter le fondu d&apos;entrée/sortie lors de l&apos;ouverture/fermeture des fenêtres</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
@@ -173,7 +173,7 @@
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation>X Render</translation>
+        <translation type="unfinished">X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
