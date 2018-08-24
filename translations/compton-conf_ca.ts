@@ -86,29 +86,29 @@
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Opacitat predeterminada de les finestres inactives</translation>
+        <translation>L&apos;opacitat predeterminada de les finestres inactives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Opacitat predeterminada de les finestres actives</translation>
+        <translation>L&apos;opacitat predeterminada de les finestres actives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation>Opacitat de les barres de títol i de les cantonades de la finestra</translation>
+        <translation>L&apos;opacitat de les barres de títol i de les cantonades de la finestra</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>Dorsal XRender: Mida de la passa per a les imatges alfa
-(Augmentar-ho pot provocar un menor ús del recurs de les X)</translation>
+        <translation>Dorsal XRender: mida de la passa per a les imatges alfa
+(augmentar-ho pot provocar un menor ús del recurs de les X)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
-        <translation>Il·luminació de les finestres inactives</translation>
+        <translation>La il·luminació de les finestres inactives</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="203"/>
@@ -148,12 +148,12 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Canvi d&apos;opacitat entre les passes de l&apos;esvaïment d&apos;aparèixer</translation>
+        <translation>El canvi d&apos;opacitat entre les passes de l&apos;esvaïment d&apos;aparèixer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Canvi d&apos;opacitat entre les passes de l&apos;esvaïment de desaparèixer</translation>
+        <translation>El canvi d&apos;opacitat entre les passes de l&apos;esvaïment de desaparèixer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
