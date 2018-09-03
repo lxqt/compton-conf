@@ -6,7 +6,7 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Fenstereffekte einrichten</translation>
+        <translation>Spezialeffekte Einstellungen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>Unschärferadius</translation>
+        <translation>Unschärferadius für Schatten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Keine Schatten beim Verschieben von Drag&amp;Drop Fenstern zeichnen</translation>
+        <translation>Keine Schatten bei Drag&amp;Drop zeichnen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Entferne Schatten maximierter Fenster bei geräteübergreifender Darstellung</translation>
+        <translation>Entferne Schatten maximierter Fenster von erweiterten Displays</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Default-Deckkraft von inaktiven Fenstern</translation>
+        <translation>Vorgabedeckkraft von inaktiven Fenstern</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Default-Deckkraft von aktiven Fenstern</translation>
+        <translation>Vorgabedeckkraft von aktiven Fenstern</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
@@ -103,7 +103,7 @@
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
         <translation>XRender Backend: Schrittweite für Bilder mit Transparenz
-(höhere Werte können zu niedrigerer X-Nutzung führen)</translation>
+(höhere Werte können zu niedrigerer Ressourcennutzung vo X führen)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -123,7 +123,7 @@
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation>Auch Hintergrund von opaken Fenstern mit transparenten Rahmen verwischen</translation>
+        <translation>Hintergrund von undurchsichtigen Fenstern mit transparenten Rahmen verwischen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
@@ -133,32 +133,32 @@
     <message>
         <location filename="../maindialog.ui" line="292"/>
         <source>Fade</source>
-        <translation>Überblenden</translation>
+        <translation>Ausblenden</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation>Überblendeffekt bei Deckkraft-Änderungen</translation>
+        <translation>Blende Fenster bei Deckkraft-Änderungen aus</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>Zeit zwischen den Überblendschritten in ms</translation>
+        <translation>Zeit zwischen den Schritten eines Ein-/Ausblendvorgangs in ms</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Deckkraftänderung je Überblendschritt beim Einblenden</translation>
+        <translation>Deckkraftänderung  pro Schritt beim Einblenden</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Deckkraftänderung je Überblendschritt beim Ausblenden</translation>
+        <translation>Deckkraftänderung pro Schritt beim Ausblenden</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Überblendeffekt beim Öffnen/Schließen von Fenstern vermeiden</translation>
+        <translation>Ein-/Ausblenden beim Öffnen/Schließen von Fenstern vermeiden</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
