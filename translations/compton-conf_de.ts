@@ -81,7 +81,7 @@
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation>Deckkraft für Menüs</translation>
+        <translation>Deckkraft von Menüs</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
