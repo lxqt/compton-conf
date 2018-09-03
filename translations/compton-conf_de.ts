@@ -102,7 +102,7 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>XRender Backend: Schrittweite für Bilder mit Transparenz
+        <translation>XRender-Backend: Schrittweite für Bilder mit Transparenz
 (höhere Werte können zu ressourcenschonender X-Nutzung führen)</translation>
     </message>
     <message>
