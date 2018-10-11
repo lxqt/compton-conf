@@ -6,7 +6,7 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Definições de efeitos especiais</translation>
+        <translation>Configurações de efeitos especiais</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -21,17 +21,17 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>Desvio da margem esquerda da sombra</translation>
+        <translation>O deslocamento esquerdo das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Desvio da margem superior da sombra</translation>
+        <translation>O deslocamento superior das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>Translucência das janelas</translation>
+        <translation>A translucidez das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
@@ -41,37 +41,37 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>Corrigir imperfeições das janelas ARGB</translation>
+        <translation>Corrigir algumas imperfeições com janelas ARGB</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Zerar a parte da máscara de sombra atrás da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Não criar sombras ao arrastar e largar janelas</translation>
+        <translation>Não desenhe sombras na função arrastar e soltar as janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Não criar sombras nas janelas da doca/painel</translation>
+        <translation>Evite desenhar sombras na doca/janelas do painel</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Ativar sombra &apos;client-side&apos; nas janelas</translation>
+        <translation>Habilitar sombras do lado do cliente nas janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Não criar sombras nas janelas enroladas</translation>
+        <translation>Evitar desenhar sombra em todas as janelas enroladas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Recortar as sombras das janelas maximizadas para telas estendidas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -81,7 +81,7 @@
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation>Opacidade dos menus</translation>
+        <translation>A opacidade dos menus</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
@@ -96,24 +96,24 @@
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation>Opacidade da barra de título e dos contornos</translation>
+        <translation>Opacidade das barras de título e bordas da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>Infraestrutura XRender: etapa para imagens alfa
-(Valores mais altos podem reduzir a utilização do X)</translation>
+        <translation>Infraestrutura XRender: Tamanho do passo para imagens alfa
+(Aumentar pode resultar em menos uso de recursos X)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
-        <translation>Escurecimento das janelas inativas</translation>
+        <translation>Escurecer janelas inativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Não escurecer tendo como base a opacidade da janela</translation>
+        <translation>Não deixe o escurecimento ajustar com base na opacidade da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
@@ -133,7 +133,7 @@
     <message>
         <location filename="../maindialog.ui" line="292"/>
         <source>Fade</source>
-        <translation>Desvanecimento</translation>
+        <translation>Desvanecer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="298"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Não desvanecer ao abrir e fechar janelas</translation>
+        <translation>Evitar desvanecer as janelas ao aparecer/desaparecer quando abrir/fechar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
