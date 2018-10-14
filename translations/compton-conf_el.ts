@@ -138,7 +138,7 @@
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation>Εξασθένιση των παραθύρων κατά την αλλαγή της αδιαφάνειας </translation>
+        <translation>Εξασθένιση των παραθύρων κατά την αλλαγή της αδιαφάνειας</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
