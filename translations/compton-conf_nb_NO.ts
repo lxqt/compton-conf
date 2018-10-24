@@ -6,168 +6,169 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation></translation>
+        <translation>Spesialeffektinnstillinger</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
         <source>Shadow</source>
-        <translation></translation>
+        <translation>Skygge</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation></translation>
+        <translation>Uskarphetsradius for skyggen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation></translation>
+        <translation>Bredde på skyggen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation></translation>
+        <translation>Høyde på skyggen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation></translation>
+        <translation>Gjennomsiktighet for skyggen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation></translation>
+        <translation>Farge på skyggen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation></translation>
+        <translation>Fikser noen særheter med ARGB-vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation></translation>
+        <translation>Nullstill delen av skyggemasken bak vinduet</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation></translation>
+        <translation>Ikke tegn skygger på DND-vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation></translation>
+        <translation>Unngå å tegne skygger på dock eller panel</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation></translation>
+        <translation>Skru på skygger på klient-siden på vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation></translation>
+        <translation>Unngå å tegne skygger på alle vinduer med former</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation></translation>
+        <translation>Kutt vekk skygger på maksimerte vinduer fra eksterne skjermer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
         <source>Opacity</source>
-        <translation></translation>
+        <translation>Gjennomsiktighet</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation></translation>
+        <translation>Gjennomsiktigheten til menyer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation></translation>
+        <translation>Gjennomsiktighet for inaktive vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation></translation>
+        <translation>Gjennomsiktighet for aktive vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation></translation>
+        <translation>Gjennomsiktighet for tittellinjer og kanter</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation></translation>
+        <translation>XRender backend: Stegstørrelse for alpha bilder
+(Å øke den kan resultere i at X krever færre resurser)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
-        <translation></translation>
+        <translation>Ton ned inaktive vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation></translation>
+        <translation>Ikke la nedtonetheten justeres begrunnet i vindusgjennomsiktigheten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
         <source>Blur background of transparent windows</source>
-        <translation></translation>
+        <translation>Gjør bakgrunnen til gjennomsiktige vinduer uskarpe</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation></translation>
+        <translation>Gjør også bakgrunnen til ugjennomsiktige vinduer med gjennomsiktige rammer uskarpe</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation></translation>
+        <translation>Ikke la uskarphetsradiusen justeres basert på vindusgjennomsiktigheten</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
         <source>Fade</source>
-        <translation></translation>
+        <translation>Ton ut</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation></translation>
+        <translation>Ton ut vinduer under gjennomsiktighetsforandringer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation></translation>
+        <translation>Tiden mellom steg i uttoningen i millisekunder</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation></translation>
+        <translation>Gjennomsiktighetsforandring mellom steg under inntoning</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation></translation>
+        <translation>Gjennomsiktighetsforandring mellom steg under uttoning</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation></translation>
+        <translation>Unngå å tone vinduer inn eller ut ved åpning og lukking</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
         <source>Other</source>
-        <translation></translation>
+        <translation>Annet</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation></translation>
+        <translation>Opptegningsbackend</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
@@ -182,12 +183,12 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
-        <translation></translation>
+        <translation>Om ComptonConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
@@ -195,7 +196,10 @@
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation></translation>
+        <translation>ComptonConf - innstillingsverktøy for compton
+
+Copyright (C) 2013
+Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
 </TS>
