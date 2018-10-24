@@ -56,12 +56,12 @@
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Evita dibuixar les ombres en les finestres dels acobladors o dels taulers</translation>
+        <translation>Evita dibuixar les ombres a les finestres dels acobladors o dels taulers</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Habilita les ombres del cantó del client en les finestres</translation>
+        <translation>Habilita les ombres del cantó del client a les finestres</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
