@@ -6,42 +6,42 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation></translation>
+        <translation>Configurações de Efeitos Especiais</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
         <source>Shadow</source>
-        <translation></translation>
+        <translation>Sombra</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation></translation>
+        <translation>Tamanho das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation></translation>
+        <translation>Deslocamento horizontal</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation></translation>
+        <translation>Deslocamento vertical</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation></translation>
+        <translation>Translucidez</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation></translation>
+        <translation>Cor das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation></translation>
+        <translation>Corrige imperfeições em janelas ARGB</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -51,22 +51,22 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation></translation>
+        <translation>Não aplicar sombras em janelas DND</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation></translation>
+        <translation>Não aplicar sombras no painéis/docks</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation></translation>
+        <translation>Ativar as sombras em janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation></translation>
+        <translation>Não aplicar sombras em janelas moldadas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
@@ -76,27 +76,27 @@
     <message>
         <location filename="../maindialog.ui" line="151"/>
         <source>Opacity</source>
-        <translation></translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation></translation>
+        <translation>Opacidade dos menus</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation></translation>
+        <translation>Opacidade em janelas inativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation></translation>
+        <translation>Opacidade em janelas ativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation></translation>
+        <translation>Opacidade em barras de título e bordas de janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
@@ -107,42 +107,42 @@
     <message>
         <location filename="../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
-        <translation></translation>
+        <translation>Escurecer janelas inativas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation></translation>
+        <translation>Não permitir escurecimento baseado na opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
         <source>Blur background of transparent windows</source>
-        <translation></translation>
+        <translation>Desfocar o fundo de janelas transparentes</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation></translation>
+        <translation>Desfocar o fundo de janelas opacas com frames transparentes</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation></translation>
+        <translation>Não ajustar o tamanho das sombras baseado na opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
         <source>Fade</source>
-        <translation></translation>
+        <translation>Esmaecimento</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation></translation>
+        <translation>Esmaecer janelas em mudança de opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation></translation>
+        <translation>Tempo entre passos em milissegundos</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
@@ -162,17 +162,17 @@
     <message>
         <location filename="../maindialog.ui" line="369"/>
         <source>Other</source>
-        <translation></translation>
+        <translation>Outros</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation></translation>
+        <translation>Método de renderização</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation></translation>
+        <translation>XRender</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
@@ -182,12 +182,12 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation></translation>
+        <translation>Sobre</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
-        <translation></translation>
+        <translation>Sobre o ComptonConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
@@ -195,7 +195,10 @@
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation></translation>
+        <translation>ComptonConf - ferramenta de configuração para o Compton
+
+Copyright (C) 2013
+Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
 </TS>
