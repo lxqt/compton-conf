@@ -102,7 +102,8 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation></translation>
+        <translation>XRender backend: Tamanho do passo para figuras com alfa
+(Aumentar pode diminuir o uso de recursos do servidor X)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
