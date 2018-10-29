@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation></translation>
+        <translation>Zerar a parte da máscara da sombra atrás da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation></translation>
+        <translation>Cortar sombras de janelas maximizadas em telas estendidas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -147,17 +147,17 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation></translation>
+        <translation>Opacidade altera entre as etapas enquanto aparece</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation></translation>
+        <translation>Opacidade altera entre as etapas enquanto desaparece</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation></translation>
+        <translation>Evitar desvanecimento em janelas quando abre/fecha</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
