@@ -6,168 +6,169 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation></translation>
+        <translation>Axustes de efectos especiais</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
         <source>Shadow</source>
-        <translation></translation>
+        <translation>Sombra</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation></translation>
+        <translation>Radio de desenfoque das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation></translation>
+        <translation>Desprazamento cara a esquerda das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation></translation>
+        <translation>Desprazamento cara arriba das sobras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation></translation>
+        <translation>A translucidez das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation></translation>
+        <translation>Cor da sombra</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation></translation>
+        <translation>Corrixir algunhas rarezas coas xanelas ARGB</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation></translation>
+        <translation>Poñer a cero a parte da máscara da sombra tras a xanela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation></translation>
+        <translation>Non debuxar sombras en xanelas DND</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation></translation>
+        <translation>Evitar debuxar sombras en xanelas de doca/panel</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation></translation>
+        <translation>Activar sombras do lado do cliente nas xanelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation></translation>
+        <translation>Evitar debuxar sombra en todas as xanelas con forma</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation></translation>
+        <translation>Recortar as sombras das xanelas maximizadas desde pantallas estendidas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
         <source>Opacity</source>
-        <translation></translation>
+        <translation>Opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation></translation>
+        <translation>A opacidade dos menús</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation></translation>
+        <translation>Opacidade por omisión das xanelas inactivas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation></translation>
+        <translation>Opacidade por omisión das xanelas activas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation></translation>
+        <translation>Opacidade das barras de título e bordos das xanelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation></translation>
+        <translation>Infraestrutura XRender: tamaño de paso para imaxes alpha
+(Aumentalo pode dar como resultado un menor uso de recursos de X)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
         <source>Dim inactive windows</source>
-        <translation></translation>
+        <translation>Esmorecer as xanelas inactivas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation></translation>
+        <translation>Non permitir que o esmorecemento se axuste en función da opacidade da xanela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
         <source>Blur background of transparent windows</source>
-        <translation></translation>
+        <translation>Desenfocar o fondo das xanelas transparentes</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation></translation>
+        <translation>Desenfocar tamén o fondo das xanelas opacas con marcos transparentes</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation></translation>
+        <translation>Non permitir que o radio de desenfoque se axuste en función da opacidade da xanela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
         <source>Fade</source>
-        <translation></translation>
+        <translation>Esvaecer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation></translation>
+        <translation>Esvaecer as xanelas durante os cambios de opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation></translation>
+        <translation>A duración entre pasos dun esvaecemento en milisegundos</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation></translation>
+        <translation>Cambio da opacidade entre pasos durante o esvaecemento</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation></translation>
+        <translation>Cambio de opacidade entre pasos ao desaparecer o esvaecemento</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation></translation>
+        <translation>Evitar o esvaecemento das xanelas ao abrilas/pechalas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
         <source>Other</source>
-        <translation></translation>
+        <translation>Outro</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation></translation>
+        <translation>Infraestrutura de representación</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
@@ -182,12 +183,12 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation></translation>
+        <translation>Sobre</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
-        <translation></translation>
+        <translation>Sobre o ComptonConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
@@ -195,7 +196,10 @@
 
 Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
-        <translation></translation>
+        <translation>ComptonConf - utilidade de configuración para compton
+
+Copyright (C) 2013
+Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
 </TS>
