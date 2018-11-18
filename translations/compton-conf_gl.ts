@@ -26,7 +26,7 @@
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Desprazamento cara arriba das sobras</translation>
+        <translation>Desprazamento cara arriba das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
@@ -66,7 +66,7 @@
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Evitar debuxar sombra en todas as xanelas con forma</translation>
+        <translation>Evitar debuxar sombras en todas as xanelas con formas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Opacidade por omisión das xanelas inactivas</translation>
+        <translation>Opacidade predeterminada das xanelas inactivas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Opacidade por omisión das xanelas activas</translation>
+        <translation>Opacidade predeterminada das xanelas activas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
@@ -102,7 +102,7 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>Infraestrutura XRender: tamaño de paso para imaxes alpha
+        <translation>Infraestrutura XRender: tamaño de paso para imaxes transparentes (alfa)
 (Aumentalo pode dar como resultado un menor uso de recursos de X)</translation>
     </message>
     <message>
@@ -168,12 +168,12 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation>Infraestrutura de representación</translation>
+        <translation>Infraestrutura de debuxado</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation></translation>
+        <translation>Debuxado das X</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
