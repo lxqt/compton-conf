@@ -2,6 +2,7 @@ compton-conf-0.14.0 / 2018-12-01
 ===============================
 
   * Bumped minor version to 14
+  * Updated Translations
   * Improved cmake scripting
     - set cmake_minimum_required to 3.1.0
     - removed locale compile definitons
