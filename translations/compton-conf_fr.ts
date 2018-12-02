@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation type="unfinished">Concentrez la partie du masque de l&apos;ombre derrière la fenêtre</translation>
+        <translation type="unfinished">Zéro la partie du masque de l&apos;ombre derrière la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation type="unfinished">Ne laissez pas le réglage du rayon flou en fonction de l&apos;opacité de la fenêtre</translation>
+        <translation type="unfinished">Ne laissez pas le rayon de flou s&apos;ajuster en fonction de l&apos;opacité de la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
@@ -153,12 +153,12 @@
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation type="unfinished">Opacité entre les étapes d&apos;un fondu sortant</translation>
+        <translation>Changement d&apos;opacité entre les étapes lors du fondu</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation type="unfinished">Éviter le fondu d&apos;entrée/sortie lors de l&apos;ouverture/fermeture des fenêtres</translation>
+        <translation>Évitez les fenêtres qui s&apos;estompent lors de l&apos;ouverture / la fermeture</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
@@ -173,7 +173,7 @@
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished">X Render</translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
