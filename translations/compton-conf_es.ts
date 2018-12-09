@@ -41,7 +41,7 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>Corregir algunas rarezas de las ventanas ARGB</translation>
+        <translation>Corregir algunas anomalías de las ventanas ARGB</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>No dibujar sombras en ventanas DND</translation>
+        <translation>No dibujar sombras en ventanas de arrastrar y soltar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
@@ -102,7 +102,7 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>Motor XRender: tamaño de paso para imágenes alpha
+        <translation>Motor XRender: tamaño de paso para imágenes de canal alfa
 (Aumentarlo puede resultar en un menor uso de recursos de X)</translation>
     </message>
     <message>
