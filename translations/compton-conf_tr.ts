@@ -21,12 +21,12 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation type="unfinished">Gölgeler için sol uzantı</translation>
+        <translation>Gölgeler için sol uzantı</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation type="unfinished">Gölgeler için yukarı uzantı</translation>
+        <translation>Gölgeler için yukarı uzantı</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Pencerelerdeki istemci tarafı gölgeleri etkinleştir</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Genişletilmiş pencerelerden büyütülmüş pencerelerin gölgelerini kes</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
