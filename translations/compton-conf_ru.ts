@@ -173,7 +173,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Графический движок</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
