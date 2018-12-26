@@ -103,9 +103,8 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>Сервер XRender: размер шага для прозрачных изображений
-(Увеличение его может привести к меньшему использованию
-ресурсов сервером X)</translation>
+        <translation>Движок XRender: размер шага для прозрачных изображений
+(Увеличение может снизить потребление ресурсов X-сервером)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
