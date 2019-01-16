@@ -168,7 +168,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka uç oluşturma</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
