@@ -1,5 +1,5 @@
-compton-conf-0.14.0 / 2018-12-01
-===============================
+compton-conf-0.14.0 / 2019-01-25
+================================
 
   * Bumped version to 0.14.0 
     - the big bump was needed to prevent version conflicts 
