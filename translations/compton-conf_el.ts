@@ -16,7 +16,7 @@
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>Η ακτίνα θόλωσης για της σκιάς</translation>
+        <translation>Η ακτίνα θόλωσης σκιών</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
