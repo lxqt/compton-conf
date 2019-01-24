@@ -1,4 +1,18 @@
+compton-conf-0.14.0 / 2019-01-25
+================================
 
+  * Bumped version to 0.14.0 
+    - the big bump was needed to prevent version conflicts 
+      with the merged back translations
+  * Updated Translations
+  * Improved cmake scripting
+    - set cmake_minimum_required to 3.1.0
+    - removed locale compile definitons
+    - improved ldflags handling
+  * Moved translations from lxqt-l10n back to compton-conf
+    - removed obsolete translation fuctionality
+  * Added translation state to README.md
+    
 compton-conf-0.4.0 / 2018-05-21
 ===============================
 
