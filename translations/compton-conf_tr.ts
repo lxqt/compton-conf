@@ -143,7 +143,7 @@
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>Adımlar arasındaki süre, milisaniye cinsinden solsun</translation>
+        <translation>Doldurmadan adımlar arasındaki milisaniye süresi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
