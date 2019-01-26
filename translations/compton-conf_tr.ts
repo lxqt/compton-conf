@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Pencere arkası maskeleri ve gölgeleri sıfırla</translation>
+        <translation>Pencere arkası gölge maskelerini sıfırla</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -91,7 +91,7 @@
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Etkin olan pencere için koyuluk</translation>
+        <translation>Etkin olan pencere için varsayılan koyuluk</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
@@ -113,7 +113,7 @@
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Gölgeliğin pencere opaklığına göre ayarlanmasına izin vermeyin</translation>
+        <translation>Gölgeliğin pencere koyuluguna göre ayarlanmasına izin vermeyin</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
@@ -123,12 +123,12 @@
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation>Şeffaf çerçeveli opak pencerelerin arka planını bulanıklaştır</translation>
+        <translation>Şeffaf çerçeveli mat pencerelerin arka planını bulanıklaştır</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Bulanıklık yarıçapının pencere opaklığına göre ayarlanmasına izin verme</translation>
+        <translation>Bulanıklık yarıçapının pencere matlığına göre ayarlanmasına izin verme</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
@@ -148,17 +148,17 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Solarken adımlar arasındaki opaklık değişimi</translation>
+        <translation>Solarken adımlar arasındaki matlık değişimi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Solma adımları arasındaki opaklık değişimi</translation>
+        <translation>Solma adımları arasındaki matlık değişimi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Açma/kapama esnasında pencerelerin olmasını önle</translation>
+        <translation>Açma/kapama esnasında pencerelerin solmasını önle</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
@@ -173,7 +173,7 @@
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Sunucu</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
