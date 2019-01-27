@@ -138,7 +138,7 @@
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation>Esmaecer janelas em mudança de opacidade</translation>
+        <translation>Desvanecer janelas durante alterações de opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
