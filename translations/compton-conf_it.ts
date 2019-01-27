@@ -62,7 +62,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita le ombre client-side alle finestre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
@@ -72,7 +72,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritaglia le ombre delle finestre massimizzate da schermi esterni</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -169,17 +169,17 @@ potrebbe comportare un uso maggiore di risorse per il server grafico X)</transla
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Sistema di rendering</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Render X</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
