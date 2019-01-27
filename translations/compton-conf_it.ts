@@ -6,7 +6,7 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Impostazioni effetti delle finestre</translation>
+        <translation>Impostazioni effetti speciali delle finestre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>Ampiezza di sfocatura per le ombre</translation>
+        <translation>Ampiezza sfocatura per le ombre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
