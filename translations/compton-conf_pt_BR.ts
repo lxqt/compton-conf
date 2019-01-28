@@ -113,7 +113,7 @@
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Não ajustar o esmaecimento com base na opacidade de janelas</translation>
+        <translation>Não deixar o esmaecimento ajustar com base na opacidade de janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Não ajustar o nível de desfoque com base na opacidade de janelas</translation>
+        <translation>Não deixar o raio de desfoque ajustar com base na opacidade da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
