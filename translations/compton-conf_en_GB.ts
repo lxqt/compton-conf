@@ -36,7 +36,7 @@
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation></translation>
+        <translation>Colour of shadow</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation></translation>
+        <translation>Crop shadows of maximised windows from extended displays</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -96,13 +96,14 @@
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation></translation>
+        <translation>Opacity of window title bars and borders</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation></translation>
+        <translation>XRender back-end: Step size for alpha pictures
+(Increasing it may result in less X resource usage)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -167,7 +168,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation></translation>
+        <translation>Rendering back-end</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
