@@ -178,7 +178,7 @@
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation></translation>
+        <translation>जी.एल.एक्स ओपन जी एल [GLX (OpenGL)]</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
