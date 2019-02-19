@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation type="unfinished">Zéro la partie du masque de l&apos;ombre derrière la fenêtre</translation>
+        <translation>Zéro la partie du masque de l&apos;ombre derrière la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -103,7 +103,7 @@
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
         <translation>XRender backend: Taille des étapes pour les images alpha
-(Les augmenter peut entraîner une moindre utilisation des ressources X)</translation>
+(Les augmenter pourrait entraîner une moindre utilisation des ressources X)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation type="unfinished">Ne laissez pas le rayon de flou s&apos;ajuster en fonction de l&apos;opacité de la fenêtre</translation>
+        <translation>Ne pas laisser le rayon de flou s&apos;ajuster en fonction de l&apos;opacité de la fenêtre</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
@@ -148,12 +148,12 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Opacité entre les étapes d&apos;un fondu entant</translation>
+        <translation>Changement d&apos;opacité entre les étapes lors du fondu</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Changement d&apos;opacité entre les étapes lors du fondu</translation>
+        <translation>Variation d&apos;opacité entre les étapes d&apos;un fondu sortant</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
@@ -178,7 +178,7 @@
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation>GLX (OpenGL)</translation>
+        <translation>Extension OpenGL (GLX)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
