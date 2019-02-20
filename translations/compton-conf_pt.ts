@@ -6,7 +6,7 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Configurações de efeitos especiais</translation>
+        <translation>Definições de efeitos especiais</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -51,27 +51,27 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Não desenhe sombras na função arrastar e soltar as janelas</translation>
+        <translation>Não desenhar sombras ao arrastar e largar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Evite desenhar sombras na doca/janelas do painel</translation>
+        <translation>Não desenhar sombras na doca/janelas do painel</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Habilitar sombras do lado do cliente nas janelas</translation>
+        <translation>Ativar sombras &apos;client-side&apos; nas janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Evitar desenhar sombra em todas as janelas enroladas</translation>
+        <translation>Não desenhar sombra em todas as janelas enroladas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Cortar sombras de janelas maximizadas de telas estendidas</translation>
+        <translation>Cortar sombras de janelas maximizadas em ecrãs expandidos</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -96,7 +96,7 @@
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation>Opacidade das barras de título e bordas da janela</translation>
+        <translation>Opacidade das barras de título e contornos das janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
@@ -113,7 +113,7 @@
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Não deixe o escurecimento ajustar com base na opacidade da janela</translation>
+        <translation>Não ajustar escurecimento com base na opacidade da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Evitar desvanecer as janelas ao aparecer/desaparecer quando abrir/fechar</translation>
+        <translation>Não desvanecer janelas ao aparecer/desaparecer quando abrir/fechar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
@@ -183,12 +183,12 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation>Sobre</translation>
+        <translation>Acerca</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
-        <translation>Sobre ComptomConf</translation>
+        <translation>Acerca de ComptomConf</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
@@ -198,7 +198,7 @@ Copyright (C) 2013
 Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf - ferramenta de configuração para o compton
 
-Copyright (C) 2013-2017
+Copyright (C) 2013-2019
 Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
