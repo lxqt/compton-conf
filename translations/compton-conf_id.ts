@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>Radius blur tidak tergantung pada opasitas jendela</translation>
+        <translation>Jangan biarkan radius blur tergantung pada opasitas jendela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
@@ -148,17 +148,17 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Perubahan opasitas antar langkah saat angsur jelas</translation>
+        <translation>Perubahan opasitas antar langkah saat pudar aktif</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Perubahan opasitas antar langkah saat angsur pudar</translation>
+        <translation>Perubahan opasitas antar langkah saat pudar tidak aktif</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Cegah angsur jelas/pudar saat membuka/menutup jendela</translation>
+        <translation>Hindari memudar jendela masuk/keluar saat membuka/menutup</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
