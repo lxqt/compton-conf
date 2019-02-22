@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>对扩展显示器中的最大化窗口裁剪阴影</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
