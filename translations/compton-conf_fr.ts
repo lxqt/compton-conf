@@ -158,7 +158,7 @@
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Évitez les fenêtres qui s&apos;estompent lors de l&apos;ouverture / la fermeture</translation>
+        <translation>Éviter les fenêtres qui s&apos;estompent lors de l&apos;ouverture/la fermeture</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
