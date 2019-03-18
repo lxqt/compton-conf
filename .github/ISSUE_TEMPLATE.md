@@ -1,5 +1,5 @@
 <!--- Provide a general summary of the issue in the title above. You       --->
-<!--- should delete not relevant sections and/or questions in your report  --->
+<!--- should not delete relevant sections and/or questions in your report  --->
 
 <!--- BEFORE FILLING OUT THIS REPORT FORM:                                 --->
 <!--- Dear users of stable and LTS (long term service) distributions:      --->
