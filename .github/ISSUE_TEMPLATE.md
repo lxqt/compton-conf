@@ -14,7 +14,7 @@
 ##### Current Behavior
 <!--- If describing a bug, tell us what happens instead of the expected    --->
 <!--- behaviour. If suggesting a change/improvement, explain the difference -->
-<!--- from current behavior (a screenshot might help>                      --->
+<!--- from current behavior (a screenshot might help)                      --->
 
 ##### Possible Solution
 <!--- Not obligatory, but suggest a fix/reason for the bug,                --->
