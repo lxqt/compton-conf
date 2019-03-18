@@ -2,13 +2,9 @@
 <!--- should delete not relevant sections and/or questions in your report  --->
 
 <!--- BEFORE FILLING OUT THIS REPORT FORM:                                 --->
-<!--- Dear users of stable and LTS (long term service ) distributions:     --->
-<!--- This bugtracker is about development, so don't file bugs against     --->
-<!--- long released (dead) versions, unless you have checked that the bug  --->
-<!--- you want to report is still valid in current development. For all    --->
-<!--- other things please use your distribution bugtracker. This is esp.   --->
-<!--- true for Ubuntu LTS - we can really do nothing about, please be so   --->
-<!--- kind and use launchpad instead.                                      --->
+<!--- Dear users of stable and LTS (long term service) distributions:      --->
+<!--- Please do NOT file bugs against old (dead) versions but use your     --->
+<!--- distribution bugtracker instead. This is esp. true for Ubuntu LTS.   --->
 
 ##### Expected Behavior
 <!--- If you're describing a bug, tell us what should happen                -->
