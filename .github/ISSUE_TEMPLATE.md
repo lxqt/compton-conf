@@ -9,7 +9,6 @@
 ##### Expected Behavior
 <!--- If you're describing a bug, tell us what should happen                -->
 <!--- If you're suggesting a change/improvement, tell us how it should work -->
-<!--- Hint: A sketch or a screenshot might help a lot                       -->
 
 ##### Current Behavior
 <!--- If describing a bug, tell us what happens instead of the expected    --->
@@ -36,9 +35,9 @@
 ##### System Information
 <!--- Include as many relevant details about the system you experienced    --->
 <!--- the bug in                                                           --->
-* Distribution & Version:
-* Kernel:
-* Qt Version:
-* libqtxgd Version:
-* lxqt-build-tools Version:
-* Package version:
+* Distribution & Version: 
+* Kernel: 
+* Qt Version: 
+* libqtxdg Version: 
+* lxqt-build-tools Version: 
+* Package version: 
