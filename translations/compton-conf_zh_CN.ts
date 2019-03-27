@@ -41,7 +41,7 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>修复 ARGB 窗口的怪诞表现</translation>
+        <translation>修复 ARGB 窗口异常</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
