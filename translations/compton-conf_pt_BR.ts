@@ -31,7 +31,7 @@
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>A Translucidez para sombras</translation>
+        <translation>A translucidez para sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
@@ -143,7 +143,7 @@
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>Duração dos passos  de esmaecimento em milissegundos</translation>
+        <translation>Duração dos passos de esmaecimento em milissegundos</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
