@@ -16,27 +16,27 @@
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation>Tamanho das sombras</translation>
+        <translation>Raio de desfoque das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>Deslocamento horizontal</translation>
+        <translation>Deslocamento à esquerda para sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Deslocamento vertical</translation>
+        <translation>Deslocamento superior para sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>Translucidez</translation>
+        <translation>Translucidez das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation>Cor das sombras</translation>
+        <translation>Cor da sombra</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Zerar a parte da máscara da sombra atrás da janela</translation>
+        <translation>Zerar a parte da sombra atrás da janela</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Ativar as sombras em janelas</translation>
+        <translation>Ativar sombras &apos;client-side&apos; em janelas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
