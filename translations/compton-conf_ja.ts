@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張ディスプレイから最大化されたウィンドウの影を切り取る</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -167,7 +167,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>バックエンドのレンダリング</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
