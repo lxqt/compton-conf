@@ -22,10 +22,10 @@ int main(int argc, char** argv) {
     // load translations
     QTranslator qtTranslator, translator;
     // install the translations built-into Qt itself
-    qtTranslator.load("qt_" + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
+    qtTranslator.load(QStringLiteral("qt_") + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     app.installTranslator(&qtTranslator);
     // install our own tranlations
-    translator.load("compton-conf_" + QLocale::system().name(), COMPTON_CONF_DATA_DIR "/translations");
+    translator.load(QStringLiteral("compton-conf_") + QLocale::system().name(), QStringLiteral(COMPTON_CONF_DATA_DIR) + QStringLiteral("/translations"));
     app.installTranslator(&translator);
 
     MainDialog dlg;
