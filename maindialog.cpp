@@ -41,14 +41,14 @@ MainDialog::MainDialog(QString userConfigFile) {
   ui->setupUi(this);
 
   if(userConfigFile.isEmpty()) {
-    userConfigFile_ = qgetenv("XDG_CONFIG_HOME");
+    userConfigFile_ = QFile::decodeName(qgetenv("XDG_CONFIG_HOME"));
     if(userConfigFile_.isEmpty()) {
       userConfigFile_ = QDir::homePath();
-      userConfigFile_ += "/.config";
+      userConfigFile_ += QLatin1String("/.config");
     }
     // QDir configDir = QDir(userConfigFile);
     // if(!configDir.exists())
-    userConfigFile_ += "/compton.conf";
+    userConfigFile_ += QLatin1String("/compton.conf");
   }
   else
     userConfigFile_ = userConfigFile;
@@ -79,7 +79,7 @@ MainDialog::MainDialog(QString userConfigFile) {
     if(!child->isWidgetType() || child->objectName().isEmpty())
       continue;
     // objectName uses _ while config file keys uses - as separator.
-    QByteArray keyName = child->objectName().replace('_', '-').toLatin1(); // generate config key from objectName.
+    QByteArray keyName = child->objectName().replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1(); // generate config key from objectName.
     if(child->inherits("QCheckBox")) {
       int val = -1;
       if(config_lookup_bool(&config_, keyName.constData(), &val) == CONFIG_TRUE)
@@ -100,7 +100,7 @@ MainDialog::MainDialog(QString userConfigFile) {
     }
     else if(child->inherits("QRadioButton")) {
       if(child->parent()->inherits("QGroupBox")) {
-        QByteArray groupKeyName = child->parent()->objectName().replace('_', '-').toLatin1();
+        QByteArray groupKeyName = child->parent()->objectName().replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1();
         if(keyName.startsWith(groupKeyName)) {
           const char *val;
           if(config_lookup_string(&config_, groupKeyName.constData(), &val) == CONFIG_TRUE)
@@ -125,7 +125,7 @@ MainDialog::~MainDialog() {
 void MainDialog::onButtonToggled(bool checked) {
   qDebug() << "toggled: " << sender()->objectName();
   // generate config key from objectName.
-  QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
+  QByteArray keyName = sender()->objectName().replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1();
   configSetBool(keyName.constData(), checked);
   // saveConfig();
 }
@@ -133,7 +133,7 @@ void MainDialog::onButtonToggled(bool checked) {
 void MainDialog::onSpinValueChanged(double d) {
   qDebug() << "changed: " << sender()->objectName() << ": " << d;
   // generate config key from objectName.
-  QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
+  QByteArray keyName = sender()->objectName().replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1();
   configSetFloat(keyName.constData(), d);
   // saveConfig();
 }
@@ -141,7 +141,7 @@ void MainDialog::onSpinValueChanged(double d) {
 void MainDialog::onSpinValueChanged(int i) {
   qDebug() << "changed: " << sender()->objectName() << ": " << i;
   // generate config key from objectName.
-  QByteArray keyName = sender()->objectName().replace('_', '-').toLatin1();
+  QByteArray keyName = sender()->objectName().replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1();
   configSetInt(keyName.constData(), i);
   // saveConfig();
 }
@@ -150,9 +150,9 @@ void MainDialog::onRadioGroupToggled(bool checked) {
   if (checked) {
     qDebug() << "toggled: " << sender()->objectName();
     // generate config key from objectName.
-    QByteArray keyName = sender()->parent()->objectName().replace('_', '-').toLatin1();
-    QByteArray val = sender()->objectName().right(sender()->objectName().size() - (keyName.size() + 1)).replace('_', '-').toLatin1();
-    configSetString(keyName.constData(), val);
+    QByteArray keyName = sender()->parent()->objectName().replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1();
+    QByteArray val = sender()->objectName().right(sender()->objectName().size() - (keyName.size() + 1)).replace(QLatin1Char('_'), QLatin1Char('-')).toLatin1();
+    configSetString(keyName.constData(), val.constData());
     // saveConfig();
   }
 }
@@ -166,15 +166,15 @@ void MainDialog::saveConfig() {
   config_write_file(&config_, userConfigFile_.toLocal8Bit().constData());
 
   // ask compton to reload the config
-  QString displayName = qgetenv("DISPLAY");
+  QString displayName = QString::fromLocal8Bit(qgetenv("DISPLAY"));
   for(int i = 0; i < displayName.length(); ++i) {
     if(!displayName[i].isNumber()) // replace non-numeric chars with _
-      displayName[i] = '_';
+      displayName[i] = QLatin1Char('_');
   }
-  QString comptonServiceName = COMPTON_SERVICE_PREFIX + displayName;
-  QDBusInterface iface(comptonServiceName, COMPTON_PATH, COMPTON_INTERFACE);
+  QString comptonServiceName = QStringLiteral(COMPTON_SERVICE_PREFIX) + displayName;
+  QDBusInterface iface(comptonServiceName, QStringLiteral(COMPTON_PATH), QStringLiteral(COMPTON_INTERFACE));
   if(iface.isValid()) {
-    iface.call("reset");
+    iface.call(QStringLiteral("reset"));
     // raise ourself to the top again (we'll loosing focus after reloading compton)
     activateWindow();
   }
@@ -211,7 +211,7 @@ void MainDialog::onAboutButtonClicked() {
 }
 
 void MainDialog::updateShadowColorButton() {
-  QString qss = QString("QPushButton {"
+  QString qss = QStringLiteral("QPushButton {"
   "background-color:%1;"
   "}").arg(shadowColor_.name());
   ui->shadow_color->setStyleSheet(qss);
