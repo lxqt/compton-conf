@@ -6,7 +6,7 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Configuración de efectos especiales</translation>
+        <translation>Ajustes de Efectos Especiales</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
