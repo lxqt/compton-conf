@@ -148,7 +148,7 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Mudança de opacidade em etapas enquanto aparece</translation>
+        <translation>Mudança de opacidade por passos no fading in</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
