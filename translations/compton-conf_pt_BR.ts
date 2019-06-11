@@ -138,7 +138,7 @@
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation>Aplicar fade nas janelas em mudanças de opacidade</translation>
+        <translation>Esmaecer janelas durante alterações de opacidade</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
@@ -148,22 +148,22 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Mudança de opacidade por passos no fading in</translation>
+        <translation>Alteração de opacidade em etapas enquanto aparece</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
         <source>Opacity change between steps while fading out</source>
-        <translation>Mudança de opacidade em etapas enquanto desaparece</translation>
+        <translation>Alteração de opacidade em etapas enquanto desaparece</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Não esmaecer janelas ao aparecer/desaparecer enquanto abrindo/fechando</translation>
+        <translation>Evitar esmaecimento nas janelas ao aparecer/desaparecer quando abrir/fechar</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
         <source>Other</source>
-        <translation>Outras</translation>
+        <translation>Outro</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="381"/>
