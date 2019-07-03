@@ -41,7 +41,7 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>ARGBウィンドウの異常を直す</translation>
+        <translation>ARGB ウィンドウの異常を直す</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -102,7 +102,8 @@
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
-        <translation>XRenderバックエンド: アルファピクチャーのステップサイズ（増やすと、Xのリソース消費量が減ります）</translation>
+        <translation>XRender バックエンド: アルファピクチャーのステップサイズ
+(増やすと X のリソース使用量が減るでしょう)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -177,7 +178,7 @@
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation>GLX  (OpenGL)</translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
@@ -187,7 +188,7 @@
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
-        <translation>ComptonConfについて</translation>
+        <translation>ComptonConf について</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
