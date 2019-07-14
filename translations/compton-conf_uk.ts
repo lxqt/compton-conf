@@ -61,7 +61,7 @@
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути тіні клієнтських вікон</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Сховати тіні максимізованих вікон на додаткових екранах</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -137,7 +137,7 @@
     <message>
         <location filename="../maindialog.ui" line="298"/>
         <source>Fade windows during opacity changes</source>
-        <translation>Згортання вікна під час зміни непрозорості </translation>
+        <translation>Згортати вікна під час зміни непрозорості</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="305"/>
@@ -157,7 +157,7 @@
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Уникати згортання/розгортання вікон при відкриванні/закриванні</translation>
+        <translation>Уникати ефекту плавного затухання/появи вікон при відкритті/закритті</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
@@ -167,17 +167,17 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка рендерингу</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
         <source>GLX (OpenGL)</source>
-        <translation type="unfinished"></translation>
+        <translation>GLX (OpenGL)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="416"/>
