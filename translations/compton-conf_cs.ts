@@ -66,7 +66,7 @@
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Žádné stíny u jakýchkoli tvarovaných (nečtyřúhelníkových) oken</translation>
+        <translation>Žádné stíny u jakýchkoli tvarovaných oken</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation>Vykreslovací podpůrná vrstva</translation>
+        <translation>Vykreslování podpůrní vrstvy</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
