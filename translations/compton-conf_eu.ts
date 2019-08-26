@@ -6,12 +6,12 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation></translation>
+        <translation>Eragin Berezien Ezarpenak</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
         <source>Shadow</source>
-        <translation></translation>
+        <translation>Itzala</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="67"/>
