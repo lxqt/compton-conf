@@ -6,42 +6,42 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Cài đặt hiệu ứng đặc biệt</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Bóng</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ làm mờ bóng</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Phần bù bên trái cho bóng</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Phần bù bên trên cho bóng</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ trong cho bóng</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Màu bóng</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Sửa một số vấn đề với cửa sổ ARGB</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Không vẽ bóng cho cửa sổ DND</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Không vẽ bóng cho cửa sổ của thanh điều khiển</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
@@ -76,12 +76,12 @@
     <message>
         <location filename="../maindialog.ui" line="151"/>
         <source>Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ mờ</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ mờ cho thực đơn</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
