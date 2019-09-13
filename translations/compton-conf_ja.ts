@@ -41,7 +41,7 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>ARGB ウィンドウの異常を直す</translation>
+        <translation>ARGB ウィンドウの異常を修正します</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -113,7 +113,7 @@
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>ウィンドウの透明度にあわせた暗さの調節をしない</translation>
+        <translation>ウィンドウの透明度に合わせた暗さの調節をしない</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>ウィンドウの透明度にあわせたぼかし半径の調節をしない</translation>
+        <translation>ウィンドウの透明度に合わせたぼかし半径の調節をしない</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
