@@ -77,34 +77,34 @@
     <message>
         <location filename="../maindialog.ui" line="151"/>
         <source>Opacity</source>
-        <translation>Trasparenza</translation>
+        <translation>Opacità</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="160"/>
         <source>The opacity for menus</source>
-        <translation>Trasparenza dei menu</translation>
+        <translation>Opacità dei menu</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Trasparenza delle finestre inattive</translation>
+        <translation>Opacità delle finestre inattive</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Trasparenza delle finestre attive</translation>
+        <translation>Opacità delle finestre attive</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
         <source>Opacity of window titlebars and borders</source>
-        <translation>Trasparenza delle barre del titolo e dei bordi</translation>
+        <translation>Opacità delle barre del titolo e dei bordi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="188"/>
         <source>XRender backend: Step size for alpha pictures
 (Increasing it may result in less X resource usage)</source>
         <translation>Intervallo della trasparenza del backend XRender (Aumentare il valore
-potrebbe comportare un uso maggiore di risorse per il server grafico X)</translation>
+potrebbe comportare un uso minore di risorse per il server grafico X)</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="196"/>
@@ -119,12 +119,12 @@ potrebbe comportare un uso maggiore di risorse per il server grafico X)</transla
     <message>
         <location filename="../maindialog.ui" line="210"/>
         <source>Blur background of transparent windows</source>
-        <translation>Sfumare lo sfondo delle finestre trasparenti</translation>
+        <translation>Sfuma lo sfondo delle finestre trasparenti</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation>Sfumare anche lo sfondo delle finestre trasparenti con bordo trasparente</translation>
+        <translation>Sfuma anche lo sfondo delle finestre trasparenti con bordo trasparente</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
@@ -144,7 +144,7 @@ potrebbe comportare un uso maggiore di risorse per il server grafico X)</transla
     <message>
         <location filename="../maindialog.ui" line="305"/>
         <source>The time between steps in a fade in milliseconds</source>
-        <translation>Tempo tra i gradi della dissolvenza in millisecondi</translation>
+        <translation>Tempo tra i livelli di dissolvenza in millisecondi</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="312"/>
