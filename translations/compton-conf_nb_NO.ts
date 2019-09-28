@@ -21,22 +21,22 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>Bredde på skyggen</translation>
+        <translation>Avstand for skygger på venstre side</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Høyde på skyggen</translation>
+        <translation>Avstand for skygger øverst</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>Gjennomsiktighet for skyggen</translation>
+        <translation>Gjennomsiktighet for skygger</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation>Farge på skyggen</translation>
+        <translation>Fargen til skyggen</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Unngå å tegne skygger på dock eller panel</translation>
+        <translation>Unngå å tegne skygger på dokk- og panelvinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Kutt vekk skygger på maksimerte vinduer fra eksterne skjermer</translation>
+        <translation>Beskjær skygger på maksimerte vinduer fra utvidede skjermer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../maindialog.ui" line="167"/>
         <source>Default opacity of inactive windows</source>
-        <translation>Gjennomsiktighet for inaktive vinduer</translation>
+        <translation>Standard gjennomsiktighet for inaktive vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Gjennomsiktighet for aktive vinduer</translation>
+        <translation>Standard gjennomsiktighet for aktive vinduer</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
@@ -113,7 +113,7 @@
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Ikke la nedtonetheten justeres begrunnet i vindusgjennomsiktigheten</translation>
+        <translation>Ikke la nedtonetheten justeres basert på vinduets gjennomsiktighet</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
