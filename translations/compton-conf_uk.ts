@@ -6,7 +6,7 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation>Налаштування спеціальних ефектів</translation>
+        <translation>Налаштування спецефектів</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation>Прозорість для тіней</translation>
+        <translation>Рівень прозорості для тіней</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
@@ -41,32 +41,32 @@
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation>Виправити деякі проблеми з вікном ARGB</translation>
+        <translation>Правка проблем з вікнами ARGB</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Зменшити до нуля частину маски тіні за вікном</translation>
+        <translation>Обнулити маску тіні за вікном</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>Не промальовувати тіні на вікні DND</translation>
+        <translation>Не малювати тіні у вікнах DND</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Уникати малювання тіней на вікні доку/панелі</translation>
+        <translation>Не малювати тіні на вікнах док/панелі</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
         <source>Enable client-side shadows on windows</source>
-        <translation>Увімкнути тіні клієнтських вікон</translation>
+        <translation>Увімкнути тіні вікон на стороні клієнта</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="136"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation>Уникати малювання тіні на всіх фігурних вікнах</translation>
+        <translation>Не малювати тіні на всіх фігурних вікнах</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="143"/>
