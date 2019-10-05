@@ -21,12 +21,12 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>Desprazamento cara a esquerda das sombras</translation>
+        <translation>Desprazamento cara á esquerda das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>Desprazamento cara arriba das sombras</translation>
+        <translation>Desprazamento cara a arriba das sombras</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Recortar as sombras das xanelas maximizadas desde pantallas estendidas</translation>
+        <translation>Recortar as sombras das xanelas maximizadas dende pantallas estendidas</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
