@@ -128,7 +128,7 @@
     <message>
         <location filename="../maindialog.ui" line="224"/>
         <source>Do not let blur radius adjust based on window opacity</source>
-        <translation>不使模糊半径基于窗口不透明度调整</translation>
+        <translation type="unfinished">不使模糊半径基于窗口不透明度调整</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="292"/>
