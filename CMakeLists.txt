@@ -102,15 +102,6 @@ add_executable(compton-conf
   ${compton-conf_DESKTOP_FILES}
 )
 
-target_compile_definitions(compton-conf
-    PRIVATE
-        "QT_USE_QSTRINGBUILDER"
-        "QT_NO_CAST_FROM_ASCII"
-        "QT_NO_CAST_TO_ASCII"
-        "QT_NO_URL_CAST_FROM_STRING"
-        "QT_NO_CAST_FROM_BYTEARRAY"
-)
-
 target_link_libraries(compton-conf
   ${QTX_LIBRARIES}
   ${LIBCONFIG_LDFLAGS}
