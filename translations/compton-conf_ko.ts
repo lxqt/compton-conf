@@ -6,42 +6,42 @@
     <message>
         <location filename="../maindialog.ui" line="14"/>
         <source>Special Effect Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>특별효과 설정</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="24"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="67"/>
         <source>The blur radius for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 블러 반경</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 왼쪽 거리</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 위쪽 거리</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
         <source>The translucency for shadows</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 가시성</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 색</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
         <source>Fix some weirdness with ARGB windows</source>
-        <translation type="unfinished"></translation>
+        <translation>이상한 색의 윈도우를 고쳐주세요</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="60"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation type="unfinished"></translation>
+        <translation>DND에 그리자 표시 하지않음</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
