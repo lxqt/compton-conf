@@ -36,7 +36,7 @@
     <message>
         <location filename="../maindialog.ui" line="122"/>
         <source>Color of shadow</source>
-        <translation>Árnyékszín</translation>
+        <translation>Árnyék színe</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="57"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../maindialog.ui" line="43"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Dock/Panel ablak árnyéktalan</translation>
+        <translation>Dokk/Panel árnyéktalan</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="36"/>
@@ -123,7 +123,7 @@
     <message>
         <location filename="../maindialog.ui" line="217"/>
         <source>Blur background of opaque windows with transparent frames as well</source>
-        <translation>Áttetsző keretű opak ablakok háttere is elmosott</translation>
+        <translation>Áttetsző keretű átlátszatlan ablakok háttere is elmosott</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="224"/>
@@ -158,7 +158,7 @@
     <message>
         <location filename="../maindialog.ui" line="326"/>
         <source>Avoid fade windows in/out when opening/closing</source>
-        <translation>Ablaknyitásnál, zárásnál nincs áttűnési hatás</translation>
+        <translation>Ablaknyitásnál, zárásnál nincs áttűnés</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="369"/>
