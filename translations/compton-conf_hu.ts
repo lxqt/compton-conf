@@ -46,7 +46,7 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>Ablakmögötti árnyékmaszk lekapcsolása</translation>
+        <translation>Ablak mögötti árnyékmaszk lekapcsolása</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation type="unfinished"></translation>
+        <translation>Több kijelzőnél a teljes méretű ablakok árnyékok levágása</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -91,7 +91,7 @@
     <message>
         <location filename="../maindialog.ui" line="174"/>
         <source>Default opacity for active windows</source>
-        <translation>Aktív ablak alap áttetszősége</translation>
+        <translation>Aktív ablak alapértelmezett áttetszősége</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="181"/>
@@ -113,7 +113,7 @@
     <message>
         <location filename="../maindialog.ui" line="203"/>
         <source>Do not let dimness adjust based on window opacity</source>
-        <translation>Elsötétítés az ablak áttetszőségétől független</translation>
+        <translation>Elsötétítés az ablak áttetszőségétől függetlenül</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="210"/>
@@ -183,12 +183,12 @@
     <message>
         <location filename="../maindialog.ui" line="416"/>
         <source>About</source>
-        <translation>Rólunk</translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="209"/>
         <source>About ComptonConf</source>
-        <translation>A ComptonConf</translation>
+        <translation>A ComptonConf névjegye</translation>
     </message>
     <message>
         <location filename="../maindialog.cpp" line="210"/>
@@ -199,7 +199,7 @@ Author: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</source>
         <translation>ComptonConf - Compton beállító eszköz
 
 Copyright (C) 2013
-Autor: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
+Szerző: Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;</translation>
     </message>
 </context>
 </TS>
