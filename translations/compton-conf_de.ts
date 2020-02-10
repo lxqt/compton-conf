@@ -148,7 +148,7 @@
     <message>
         <location filename="../maindialog.ui" line="312"/>
         <source>Opacity change between steps while fading in</source>
-        <translation>Deckkraftänderung  pro Schritt beim Einblenden</translation>
+        <translation>Deckkraftänderung pro Schritt beim Einblenden</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="319"/>
