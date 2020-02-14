@@ -173,7 +173,7 @@
     <message>
         <location filename="../maindialog.ui" line="393"/>
         <source>X Render</source>
-        <translation type="unfinished"></translation>
+        <translation>X Render</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="400"/>
