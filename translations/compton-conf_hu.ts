@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Több kijelzőnél a teljes méretű ablakok árnyékok levágása</translation>
+        <translation>A maximalizált ablakok árnyékának kivágása a kibővített kijelzőkről</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../maindialog.ui" line="381"/>
         <source>Rendering backend</source>
-        <translation type="unfinished"></translation>
+        <translation>Képkészítő API</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="393"/>
