@@ -21,12 +21,12 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>影の左のオフセット</translation>
+        <translation>影の左オフセット</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>影の上のオフセット</translation>
+        <translation>影の上オフセット</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
