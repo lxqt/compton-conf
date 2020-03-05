@@ -71,7 +71,7 @@
     <message>
         <location filename="../maindialog.ui" line="143"/>
         <source>Crop shadows of maximized windows from extended displays</source>
-        <translation>Cortar sombras de janelas maximizadas em ecrãs expandidos</translation>
+        <translation>Cortar sombras de janelas maximizadas em monitores expandidos</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="151"/>
