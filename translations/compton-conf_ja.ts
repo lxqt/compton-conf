@@ -21,12 +21,12 @@
     <message>
         <location filename="../maindialog.ui" line="77"/>
         <source>The left offset for shadows</source>
-        <translation>影の左のオフセット</translation>
+        <translation>影の左オフセット</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="91"/>
         <source>The top offset for shadows</source>
-        <translation>影の上のオフセット</translation>
+        <translation>影の上オフセット</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="105"/>
@@ -46,12 +46,12 @@
     <message>
         <location filename="../maindialog.ui" line="60"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation>ウィンドウ背後の影のマスクをゼロにする</translation>
+        <translation>ウィンドウ背後の影のマスクを 0 にする</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="50"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation>ドラッグアンドドロップのオブジェクトの影を描画しない</translation>
+        <translation>ドラッグアンドドロップのウィンドウに影を描画しない</translation>
     </message>
     <message>
         <location filename="../maindialog.ui" line="43"/>
