@@ -1,3 +1,9 @@
+compton-conf-0.15.0 / 2020-04-25
+================================
+
+  * Bumped version to 0.15.0.
+  * Remove (duplicated) string casts definitions.
+
 compton-conf-0.14.1 / 2019-02-25
 ================================
 
@@ -7,8 +13,8 @@ compton-conf-0.14.1 / 2019-02-25
 compton-conf-0.14.0 / 2019-01-25
 ================================
 
-  * Bumped version to 0.14.0 
-    - the big bump was needed to prevent version conflicts 
+  * Bumped version to 0.14.0
+    - the big bump was needed to prevent version conflicts
       with the merged back translations
   * Updated Translations
   * Improved cmake scripting
@@ -18,7 +24,7 @@ compton-conf-0.14.0 / 2019-01-25
   * Moved translations from lxqt-l10n back to compton-conf
     - removed obsolete translation fuctionality
   * Added translation state to README.md
-    
+
 compton-conf-0.4.0 / 2018-05-21
 ===============================
 
