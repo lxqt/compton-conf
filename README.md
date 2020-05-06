@@ -1,5 +1,9 @@
 # compton-conf
 
+## WARNING
+
+This repository will receive no further updates and should be considered deprecated.
+
 ## Overview
 
 compton-conf is a configuration tool for X composite manager [Compton](https://github.com/chjj/compton).   
