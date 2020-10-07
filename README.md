@@ -30,8 +30,12 @@ To build run `make`, to install `make install` which accepts variable `DESTDIR` 
 Official binary packages are available in Arch Linux, Debian (as of Debian stretch) and openSUSE (Leap 42.1 and Tumbleweed).   
 The tool is missing in Fedora so far.   
 
-### Translation (Weblate)
 
-<a href="https://weblate.lxqt.org/projects/lxqt/compton-conf/">
-<img src="https://weblate.lxqt.org/widgets/lxqt/-/compton-conf/multi-auto.svg" alt="Translation status" />
+### Translation
+
+Translations can be done in [LXQt-Weblate](https://translate.lxqt-project.org/projects/lxqt-configuration/compton-conf/)
+
+<a href="https://translate.lxqt-project.org/projects/lxqt-configuration/">
+<img src="https://translate.lxqt-project.org/widgets/lxqt-configuration/-/compton-conf/multi-auto.svg" alt="Translation status" />
 </a>
+
