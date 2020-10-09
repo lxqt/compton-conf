@@ -31,11 +31,11 @@ Official binary packages are available in Arch Linux, Debian (as of Debian stret
 The tool is missing in Fedora so far.   
 
 
-### Translation
+###Translations
 
 Translations can be done in [LXQt-Weblate](https://translate.lxqt-project.org/projects/lxqt-configuration/compton-conf/)
 
-<a href="https://translate.lxqt-project.org/projects/lxqt-configuration/">
+<a href="https://translate.lxqt-project.org/projects/lxqt-configuration/compton-conf/">
 <img src="https://translate.lxqt-project.org/widgets/lxqt-configuration/-/compton-conf/multi-auto.svg" alt="Translation status" />
 </a>
 
