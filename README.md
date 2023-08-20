@@ -3,7 +3,7 @@
 ## WARNING
 
 This repository is archived and will receive no further updates and should be considered deprecated.
-If you are looking for a configuration tool for the X composite manager, try [picom](https://github.com/yshui/picom).
+If you are looking for a configuration tool for the X composite manager, try [picom-conf](https://github.com/qtilities/picom-conf).
 
 ## Overview
 
